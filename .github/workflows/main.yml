@@ -41,9 +41,4 @@ jobs:
           plugin_people_limit: 24
           plugin_people_size: 28
           plugin_people_types: followers, following
-          plugin_reactions: yes
-          plugin_reactions_display: absolute
-          plugin_reactions_ignored: github-actions[bot], dependabot[bot], dependabot-preview[bot]
-          plugin_reactions_limit: 200
-          plugin_reactions_limit_issues: 100
           plugin_traffic: yes

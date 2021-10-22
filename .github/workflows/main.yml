@@ -38,3 +38,8 @@ jobs:
           plugin_languages_threshold: 0%
           plugin_lines: yes
           plugin_notable: yes
+          plugin_stackoverflow: yes
+          plugin_stackoverflow_user: 5037965
+          plugin_stackoverflow_sections: answers-top, questions-recent
+          plugin_stackoverflow_limit: 2
+          plugin_stackoverflow_lines: 4

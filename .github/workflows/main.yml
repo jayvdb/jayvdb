@@ -9,7 +9,7 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@feat-base-reduce-timeouts
+      - uses: lowlighter/metrics@main
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 

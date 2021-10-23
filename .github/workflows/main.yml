@@ -59,6 +59,7 @@ jobs:
           plugin_code_lines: 12
           plugin_code_load: 100
           plugin_code_visibility: public
+          plugin_code_skipped: jayvdb/jayvdb, jayvdb/jayvdb.github.io
       # HTML
       - uses: lowlighter/metrics@main
         with:

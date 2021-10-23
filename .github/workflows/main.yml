@@ -42,6 +42,11 @@ jobs:
           plugin_achievements_display: compact
           plugin_lines: yes
           plugin_notable: yes
+          plugin_reactions: yes
+          plugin_reactions_display: absolute
+          plugin_reactions_ignored: github-actions[bot], dependabot[bot], dependabot-preview[bot]
+          plugin_reactions_limit: 200
+          plugin_reactions_limit_issues: 100
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: 5037965
           plugin_stackoverflow_sections: answers-top, questions-recent

@@ -42,7 +42,6 @@ jobs:
           plugin_achievements_display: compact
           plugin_lines: yes
           plugin_notable: yes
-          plugin_stargazers: yes
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: 5037965
           plugin_stackoverflow_sections: answers-top, questions-recent

@@ -1,8 +1,10 @@
 <p align="center">
-	<a href="https://www.linkedin.com/in/jayvdb/"><img src="https://img.shields.io/badge/-jayvdb-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jayvdb/" alt="Linkedin"></a>
+  <a href="https://www.linkedin.com/in/jayvdb/"><img src="https://img.shields.io/badge/-jayvdb-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jayvdb/" alt="Linkedin"></a>
   <a href="https://stackoverflow.com/users/5037965"><img src="https://img.shields.io/stackexchange/stackoverflow/r/5037965?color=orange&label=reputation&logo=stackoverflow&style=flat-square" alt="StackOverflow"></a>
-	<a href="https://komarev.com/ghpvc/?username=jayvdb"><img src="https://komarev.com/ghpvc/?username=jayvdb" alt="GitHub profile view count"></a>
-	<a href="https://keybase.io/jayvdb"><img alt="Keybase PGP" src="https://img.shields.io/keybase/pgp/jayvdb?style=flat-square"><a>
+  <a href="https://komarev.com/ghpvc/?username=jayvdb"><img src="https://komarev.com/ghpvc/?username=jayvdb" alt="GitHub profile view count"></a>
+  <a href="https://keybase.io/jayvdb"><img alt="Keybase PGP" src="https://img.shields.io/keybase/pgp/jayvdb?style=flat-square"><a>
+  <br>
+  <a href="https://www.openhub.net/accounts/jayvdb"><img alt='Open Hub profile for John Vandenberg' border='0' height='35' src='https://www.openhub.net/accounts/jayvdb/widgets/account_detailed?format=gif' width='230'></a>
 </p>
 
 <p align="center">

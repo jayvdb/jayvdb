@@ -42,6 +42,7 @@ jobs:
           plugin_achievements_display: compact
           plugin_lines: yes
           plugin_notable: yes
+          plugin_notable_repositories: yes
           plugin_reactions: yes
           plugin_reactions_display: absolute
           plugin_reactions_ignored: github-actions[bot], dependabot[bot], dependabot-preview[bot]

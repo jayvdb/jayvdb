@@ -14,6 +14,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
+          config_output: insights
           user: jayvdb
           template: classic
           base: header, activity, community, repositories, metadata

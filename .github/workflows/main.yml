@@ -27,7 +27,7 @@ jobs:
           config_output: svg
 
           # Output info
-          base: "activity, community, repositories"  # Which stats to show
+          base: "activity, community, repositories, metadata"  # Which stats to show
           plugin_lines: yes  # Include total added & removed lines
           # Because of GitHub REST API limitation, provided token requires full repo scope to access traffic informations.
           # plugin_traffic: yes  # Views in the last 2 weeks
@@ -97,8 +97,8 @@ jobs:
           extras_css: |  # Make it prettier
             h2, h3 { margin: 0px; opacity: 0%; width: 0px; height: 0px; }
 
-      # JSON
-      - uses: lowlighter/metrics@main
+      - name: Generate JSON
+        uses: lowlighter/metrics@main
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
@@ -137,8 +137,9 @@ jobs:
           plugin_code_load: 100
           plugin_code_visibility: public
           plugin_code_skipped: jayvdb/jayvdb, jayvdb/jayvdb.github.io
-      # SVG
-      - uses: lowlighter/metrics@main
+
+      - name: Update main SVG
+        uses: lowlighter/metrics@main
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
@@ -189,8 +190,8 @@ jobs:
           plugin_code_visibility: public
           plugin_code_skipped: jayvdb/jayvdb, jayvdb/jayvdb.github.io
 
-      # 'Insights' HTML
-      - uses: lowlighter/metrics@main
+      - name: Emit 'Insights' HTML
+        uses: lowlighter/metrics@main
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 

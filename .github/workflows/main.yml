@@ -14,7 +14,7 @@ jobs:
         with:
           # Common config
           user: jayvdb
-          token: ${{ secrets.TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           output_action: commit
           committer_branch: main
           committer_message: Update ${filename} - [GitHub Action]
@@ -40,7 +40,7 @@ jobs:
         with:
           # Common config
           user: jayvdb
-          token: ${{ secrets.TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           output_action: commit
           committer_branch: main
           committer_message: Update ${filename} - [GitHub Action]
@@ -75,7 +75,7 @@ jobs:
         with:
           # Common config
           user: jayvdb
-          token: ${{ secrets.TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           output_action: commit
           committer_branch: main
           committer_message: Update ${filename} - [GitHub Action]

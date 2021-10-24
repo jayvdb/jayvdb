@@ -44,11 +44,6 @@ jobs:
           plugin_lines: yes
           plugin_notable: yes
           plugin_notable_repositories: yes
-          plugin_stackoverflow: yes
-          plugin_stackoverflow_user: 5037965
-          plugin_stackoverflow_sections: answers-top, answers-recent
-          plugin_stackoverflow_limit: 3
-          plugin_stackoverflow_lines: 0
           plugin_code: yes
           plugin_code_lines: 12
           plugin_code_load: 100

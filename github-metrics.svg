@@ -1371,7 +1371,7 @@
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
                                 </g>
                             </svg>
                         </div>
@@ -1391,7 +1391,7 @@
           </h2>
                         <div class="field">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-            22581 Commits
+            22584 Commits
           </div>
                         <div class="field">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"/></svg>
@@ -1585,14 +1585,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="142.36418261371455" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="142.36418261371455" y="0" width="120.97181618708474" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="263.3359988007993" y="0" width="92.69729365426902" height="8" fill="#555555"/>
-                    <rect mask="url(#languages-bar)" x="356.0332924550683" y="0" width="46.12156542902703" height="8" fill="#4F5D95"/>
-                    <rect mask="url(#languages-bar)" x="402.1548578840954" y="0" width="26.195237898518823" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="428.35009578261423" y="0" width="24.496405820844608" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="452.8465016034589" y="0" width="6.217764930697768" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="459.0642665341566" y="0" width="0.9357334658434359" height="8" fill="#178600"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="142.38631285880385" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="142.38631285880385" y="0" width="120.9191148919822" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="263.30542775078607" y="0" width="92.71170327465262" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="356.0171310254387" y="0" width="46.12873493984153" height="8" fill="#4F5D95"/>
+                    <rect mask="url(#languages-bar)" x="402.1458659652802" y="0" width="26.199309899103685" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="428.34517586438386" y="0" width="24.500213741170278" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="452.84538960555415" y="0" width="6.218731470590721" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="459.0641210761449" y="0" width="0.9358789238551155" height="8" fill="#178600"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -1623,7 +1623,7 @@
                     </div>
                             <small>
                                 <div>1.21 MB</div>
-                                <div>5.69%</div>
+                                <div>5.7%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -1645,7 +1645,7 @@
                     </div>
                             <small>
                                 <div>5.57 MB</div>
-                                <div>26.3%</div>
+                                <div>26.29%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -1686,7 +1686,7 @@
         Recently used languages
       </h3>
                 <small>
-            estimation from 16 edited files from 32 commits over last 12 days
+            estimation from 16 edited files from 35 commits over last 12 days
           </small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
@@ -1904,13 +1904,13 @@
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 01-1.484.211c-.04-.282-.163-.547-.37-.847a8.695 8.695 0 00-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.75.75 0 01-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75zM6 15.25a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75zM5.75 12a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5z"/></svg>
       Recent coding habits
       
-        <small class="h-details">(computed from last 32 commits)</small>
+        <small class="h-details">(computed from last 35 commits)</small>
       
     </h2>
                 <div class="row">
                     <ul class="habits">
                         <li>Uses spaces for indentation</li>
-                        <li>Has approximately 47.6 characters per line of code written</li>
+                        <li>Has approximately 45.1 characters per line of code written</li>
                         <li>Mostly pushes code around 13:00</li>
                         <li>Mostly active on Saturday</li>
                     </ul>
@@ -2930,10 +2930,10 @@
                             </g>
                         </g>
                         <g transform="translate(44.199999999999996, 26)">
-                            <g transform="translate(0, 4.285714285714286)">
+                            <g transform="translate(0, 3.2571428571428576)">
                                 <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.7142857142857144 0,2.7142857142857144 z"/>
-                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.7142857142857144 1.7,3.7142857142857144 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4.742857142857143 0,3.742857142857143 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3.742857142857143 1.7,4.742857142857143 z"/>
                             </g>
                         </g>
                     </g>
@@ -3603,7 +3603,7 @@ Please report this to https://github.com/markedjs/marked.
                   <span class="prefix">Great</span> influencer
                   
                     <span class="gh">
-                      ranked 11.3k out of 79m users
+                      ranked 11.4k out of 79m users
                     </span>
                   
                   
@@ -3669,7 +3669,7 @@ Please report this to https://github.com/markedjs/marked.
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="3.0225 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="3.1 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g transform="translate(4 4)" fill="none" fill-rule="evenodd">
@@ -3699,12 +3699,12 @@ Please report this to https://github.com/markedjs/marked.
                   
                     <div class="value-wrapper">
                       <div class="value">
-                        1078
+                        1080
                       </div>
                     </div>
                   
                 </div>
-                                <div class="text">Maintaining a repository with 1078 stars</div>
+                                <div class="text">Maintaining a repository with 1080 stars</div>
                             </div>
                         </div>
                         <div class="achievement c largeable-width-half">
@@ -3885,7 +3885,7 @@ Please report this to https://github.com/markedjs/marked.
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="15.577889447236181 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="20.251256281407038 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g fill="none" fill-rule="evenodd">
@@ -3907,12 +3907,12 @@ Please report this to https://github.com/markedjs/marked.
                   
                     <div class="value-wrapper">
                       <div class="value">
-                        21
+                        27
                       </div>
                     </div>
                   
                 </div>
-                                <div class="text">Participated in discussions 21 times</div>
+                                <div class="text">Participated in discussions 27 times</div>
                             </div>
                         </div>
                         <div class="achievement c largeable-width-half">
@@ -4158,7 +4158,7 @@ ___</code>
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 24 Oct 2021, 10:03:11 (timezone Australia/Perth) with lowlighter/metrics@3.15.0-beta</span>
+                <span>Last updated 24 Oct 2021, 17:03:56 (timezone Australia/Perth) with lowlighter/metrics@3.15.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>

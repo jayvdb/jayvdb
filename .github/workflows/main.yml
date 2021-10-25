@@ -9,32 +9,6 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Update stats.svg
-        uses: lowlighter/metrics@latest
-        with:
-          # Common config
-          user: jayvdb
-          token: ${{ secrets.METRICS_TOKEN }}
-          output_action: commit
-          committer_branch: main
-          committer_message: Update ${filename} - [GitHub Action]
-          config_timezone: Etc/UTC
-
-          # Output file
-          template: classic
-          config_display: large
-          filename: stats.svg
-          config_output: svg
-
-          # Output info
-          base: "activity, community, repositories, metadata"  # Which stats to show
-          plugin_lines: yes  # Include total added & removed lines
-          # Because of GitHub REST API limitation, provided token requires full repo scope to access traffic informations.
-          # plugin_traffic: yes  # Views in the last 2 weeks
-          extras_css: |  # Make it prettier
-            * { font-size: 15px; }
-            h2 { margin: 2px 5px 6px !important; }
-
       - name: Update languages.svg
         uses: lowlighter/metrics@latest
         with:
@@ -69,6 +43,32 @@ jobs:
             .row { justify-content: center; }
             .row section { flex: unset !important; width: 232px }
             .field svg { margin: 0px 8px 0 -4px; }
+
+      - name: Update stats.svg
+        uses: lowlighter/metrics@latest
+        with:
+          # Common config
+          user: jayvdb
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          committer_branch: main
+          committer_message: Update ${filename} - [GitHub Action]
+          config_timezone: Etc/UTC
+
+          # Output file
+          template: classic
+          config_display: large
+          filename: stats.svg
+          config_output: svg
+
+          # Output info
+          base: "activity, community, repositories, metadata"  # Which stats to show
+          plugin_lines: yes  # Include total added & removed lines
+          # Because of GitHub REST API limitation, provided token requires full repo scope to access traffic informations.
+          # plugin_traffic: yes  # Views in the last 2 weeks
+          extras_css: |  # Make it prettier
+            * { font-size: 15px; }
+            h2 { margin: 2px 5px 6px !important; }
 
       - name: Update achievements.svg
         uses: lowlighter/metrics@latest

@@ -14,6 +14,32 @@ jobs:
     name: Generate SVG resources
     runs-on: ubuntu-latest
     steps:
+      - name: Update stats.svg
+        uses: lowlighter/metrics@main
+        with:
+          # Common config
+          user: jayvdb
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          committer_branch: main
+          committer_message: Update ${filename} - [GitHub Action]
+          config_timezone: Etc/UTC
+
+          # Output file
+          template: classic
+          config_display: large
+          filename: stats.svg
+          config_output: svg
+
+          # Output info
+          base: "header, activity, community, repositories"  # Which stats to show
+          plugin_lines: yes  # Include total added & removed lines
+          # Because of GitHub REST API limitation, provided token requires full repo scope to access traffic informations.
+          # plugin_traffic: yes  # Views in the last 2 weeks
+          extras_css: |  # Make it prettier
+            * { font-size: 15px; }
+            h2 { margin: 2px 5px 6px !important; }
+
       - name: Update languages.svg
         uses: lowlighter/metrics@main
         with:
@@ -34,14 +60,11 @@ jobs:
           # Output info
           base: ""
           plugin_languages: yes  # Show language bar
-          plugin_languages_sections: most-used, recently-used
+          plugin_languages_sections: most-used
           plugin_languages_categories: data, markup, programming, prose  # All categories
           plugin_languages_details: bytes-size, percentage  # Show percentages, with 2 decimals of precision
           plugin_languages_limit: 8  # Max
           plugin_languages_threshold: 0%  # Don't filter
-          plugin_languages_recent_categories: programming
-          plugin_languages_recent_days: 30
-          plugin_languages_recent_load: 300
           extras_css: |  # Make it prettier
             * { font-size: 16px; }
             h2, h3 { margin: 0px; opacity: 0%; width: 0px; height: 0px; }
@@ -49,7 +72,7 @@ jobs:
             .row section { flex: unset !important; width: 232px }
             .field svg { margin: 0px 8px 0 -4px; }
 
-      - name: Update stats.svg
+      - name: Update recent-languages.svg
         uses: lowlighter/metrics@main
         with:
           # Common config
@@ -63,17 +86,22 @@ jobs:
           # Output file
           template: classic
           config_display: large
-          filename: stats.svg
+          filename: recent-languages.svg
           config_output: svg
 
           # Output info
-          base: "activity, community, repositories, metadata"  # Which stats to show
-          plugin_lines: yes  # Include total added & removed lines
-          # Because of GitHub REST API limitation, provided token requires full repo scope to access traffic informations.
-          # plugin_traffic: yes  # Views in the last 2 weeks
+          base: ""
+          plugin_languages: yes  # Show language bar
+          plugin_languages_sections: recently-used
+          plugin_languages_recent_categories: programming
+          plugin_languages_recent_days: 30
+          plugin_languages_recent_load: 300
           extras_css: |  # Make it prettier
-            * { font-size: 15px; }
-            h2 { margin: 2px 5px 6px !important; }
+            * { font-size: 16px; }
+            h2, h3 { margin: 0px; opacity: 0%; width: 0px; height: 0px; }
+            .row { justify-content: center; }
+            .row section { flex: unset !important; width: 232px }
+            .field svg { margin: 0px 8px 0 -4px; }
 
       - name: Update achievements.svg
         uses: lowlighter/metrics@main
@@ -101,6 +129,26 @@ jobs:
           plugin_achievements_display: compact  # Compact layout
           extras_css: |  # Make it prettier
             h2, h3 { margin: 0px; opacity: 0%; width: 0px; height: 0px; }
+
+      - name: Update stackoverflow.svg
+        uses: lowlighter/metrics@main
+        with:
+          # Common config
+          user: jayvdb
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          committer_branch: main
+          committer_message: Update ${filename} - [GitHub Action]
+          config_timezone: Etc/UTC
+
+          # Output file
+          template: classic
+          config_display: large
+          filename: stackoverflow.svg
+          config_output: svg
+
+          # Output info
+          base: ""
 
   json:
     name: Generate JSON
@@ -240,3 +288,9 @@ jobs:
           template: markdown
           filename: README2.md
           config_output: markdown
+
+          plugin_stackoverflow: yes
+          plugin_stackoverflow_user: 5037965
+          plugin_stackoverflow_sections: answers-top, answers-recent
+          plugin_stackoverflow_limit: 3
+          plugin_stackoverflow_lines: 0

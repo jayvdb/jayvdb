@@ -155,6 +155,12 @@ jobs:
           # Output info
           base: ""
 
+          plugin_stackoverflow: yes
+          plugin_stackoverflow_user: 5037965
+          plugin_stackoverflow_sections: answers-top, answers-recent
+          plugin_stackoverflow_limit: 3
+          plugin_stackoverflow_lines: 0
+
   json:
     name: Generate JSON
     runs-on: ubuntu-latest

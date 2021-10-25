@@ -5,8 +5,13 @@ on:
   # Lines below let you run workflow manually and on each commit (optional)
   workflow_dispatch:
   push: {branches: ["master", "main"]}
+
+concurrency:  # Queue workflows rather than overlap them
+  group: metrics
+
 jobs:
-  github-metrics:
+  resources:
+    name: Generate SVG resources
     runs-on: ubuntu-latest
     steps:
       - name: Update languages.svg
@@ -97,6 +102,10 @@ jobs:
           extras_css: |  # Make it prettier
             h2, h3 { margin: 0px; opacity: 0%; width: 0px; height: 0px; }
 
+  json:
+    name: Generate JSON
+    runs-on: ubuntu-latest
+    steps:
       - name: Generate JSON
         uses: lowlighter/metrics@main
         with:
@@ -138,6 +147,10 @@ jobs:
           plugin_code_visibility: public
           plugin_code_skipped: jayvdb/jayvdb, jayvdb/jayvdb.github.io
 
+  metrics:
+    name: Generate readme metrics
+    runs-on: ubuntu-latest
+    steps:
       - name: Update main SVG
         uses: lowlighter/metrics@main
         with:
@@ -190,7 +203,11 @@ jobs:
           plugin_code_visibility: public
           plugin_code_skipped: jayvdb/jayvdb, jayvdb/jayvdb.github.io
 
-      - name: Emit 'Insights' HTML
+  insights:
+    name: Generate insights html
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update 'Insights' HTML
         uses: lowlighter/metrics@main
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -199,3 +216,27 @@ jobs:
           config_output: insights
           user: jayvdb
           template: classic
+
+  readme-template:  # Use the template and generated resources to update the README
+    name: Generate README2
+    needs: [resources]  # Run after the previous job is finished
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update README2.md
+        uses: lowlighter/metrics@latest
+        with:
+          # Common config
+          user: jayvdb
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          committer_branch: main
+          committer_message: Update ${filename} - [GitHub Action]
+          config_timezone: Etc/UTC
+
+          # Input file
+          markdown: https://raw.githubusercontent.com/jayvdb/jayvdb/main/TEMPLATE.md
+
+          # Output file
+          template: markdown
+          filename: README2.md
+          config_output: markdown

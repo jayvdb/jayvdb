@@ -15,6 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update stats.svg
+        if: always()
         uses: lowlighter/metrics@main
         with:
           # Common config

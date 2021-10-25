@@ -1,5 +1,5 @@
 name: Cancel old jobs
-on: pull_request
+on: [pull_request, push]
 jobs:
   cancel:
     name: auto-cancellation-running-action

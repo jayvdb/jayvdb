@@ -18,13 +18,17 @@
 
 ![](./languages.svg)
 
+### 📚 Recent languages
+
+![](./recent-languages.svg)
+
 ### 🏅 Achievements
 
 ![](./achievements.svg)
 
-### StackOverflow
+### Stack Overflow
 
-<%- await include(`partials/stackoverflow.ejs`) %>
+![](./stackoverflow.svg)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

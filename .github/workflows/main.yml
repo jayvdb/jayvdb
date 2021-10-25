@@ -278,7 +278,6 @@ jobs:
 
   readme-template:  # Use the template and generated resources to update the README
     name: Generate README2
-    needs: [resources]  # Run after the previous job is finished
     runs-on: ubuntu-latest
     steps:
       - name: Update README2.md

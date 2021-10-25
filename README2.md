@@ -18,13 +18,21 @@
 
 ![](./languages.svg)
 
+### 📚 Recent languages
+
+![](./recent-languages.svg)
+
 ### 🏅 Achievements
 
 ![](./achievements.svg)
+
+### Stack Overflow
+
+![](./stackoverflow.svg)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <h6 align="right"><em>
     Generated with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics v3.14.0</a> 🛠️<br> <!-- VERSION => MAJOR.minor.patch -->
-    Last updated @ 25/10/2021, 02:50 / All times UTC ⌚ <!-- meta.generated => DD/MM/YYYY, hh:mm -->
+    Last updated @ 25/10/2021, 20:31 / All times UTC ⌚ <!-- meta.generated => DD/MM/YYYY, hh:mm -->
 </em></h6>

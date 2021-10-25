@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update languages.svg
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@main
         with:
           # Common config
           user: jayvdb
@@ -45,7 +45,7 @@ jobs:
             .field svg { margin: 0px 8px 0 -4px; }
 
       - name: Update stats.svg
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@main
         with:
           # Common config
           user: jayvdb
@@ -71,7 +71,7 @@ jobs:
             h2 { margin: 2px 5px 6px !important; }
 
       - name: Update achievements.svg
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@main
         with:
           # Common config
           user: jayvdb

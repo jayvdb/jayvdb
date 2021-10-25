@@ -161,6 +161,34 @@ jobs:
           plugin_stackoverflow_limit: 3
           plugin_stackoverflow_lines: 0
 
+      - name: Update reactions.svg
+        if: always()
+        uses: lowlighter/metrics@main
+        with:
+          # Common config
+          user: jayvdb
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          committer_branch: main
+          committer_message: Update ${filename} - [GitHub Action]
+          config_timezone: Etc/UTC
+
+          # Output file
+          template: classic
+          config_display: large
+          filename: reactions.svg
+          config_output: svg
+
+          # Output info
+          base: ""
+
+          plugin_reactions: yes
+          plugin_reactions_display: absolute  # Or 'relative'
+          plugin_reactions_ignored: github-actions[bot], dependabot[bot], dependabot-preview[bot]
+          plugin_reactions_limit: 50
+          plugin_reactions_limit_issues: 25
+          plugin_reactions_days: 7
+          plugin_reactions_details: count, percentage
   json:
     name: Generate JSON
     runs-on: ubuntu-latest
@@ -244,13 +272,6 @@ jobs:
           plugin_lines: yes
           plugin_notable: yes
           plugin_notable_repositories: yes
-          plugin_reactions: yes
-          plugin_reactions_display: absolute  # Or 'relative'
-          plugin_reactions_ignored: github-actions[bot], dependabot[bot], dependabot-preview[bot]
-          plugin_reactions_limit: 50
-          plugin_reactions_limit_issues: 25
-          plugin_reactions_days: 7
-          plugin_reactions_details: count, percentage
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: 5037965
           plugin_stackoverflow_sections: answers-top, answers-recent

@@ -41,6 +41,7 @@ jobs:
             h2 { margin: 2px 5px 6px !important; }
 
       - name: Update languages.svg
+        if: always()
         uses: lowlighter/metrics@main
         with:
           # Common config
@@ -73,6 +74,7 @@ jobs:
             .field svg { margin: 0px 8px 0 -4px; }
 
       - name: Update recent-languages.svg
+        if: always()
         uses: lowlighter/metrics@main
         with:
           # Common config
@@ -104,6 +106,7 @@ jobs:
             .field svg { margin: 0px 8px 0 -4px; }
 
       - name: Update achievements.svg
+        if: always()
         uses: lowlighter/metrics@main
         with:
           # Common config
@@ -131,6 +134,7 @@ jobs:
             h2, h3 { margin: 0px; opacity: 0%; width: 0px; height: 0px; }
 
       - name: Update stackoverflow.svg
+        if: always()
         uses: lowlighter/metrics@main
         with:
           # Common config

@@ -199,6 +199,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           config_output: json
+          output_condition: skip-if-only-metadata-changed
 
           user: jayvdb
           template: classic
@@ -243,10 +244,12 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
+          output_condition: skip-if-only-metadata-changed
+          config_timezone: Australia/Perth
+
           user: jayvdb
           template: classic
           base: header, activity, community, repositories, metadata
-          config_timezone: Australia/Perth
           plugin_followup: yes
           plugin_followup_sections: repositories
           plugin_habits: yes
@@ -294,6 +297,7 @@ jobs:
 
           # Options
           config_output: insights
+          output_condition: skip-if-only-metadata-changed
           user: jayvdb
           template: classic
 
@@ -307,6 +311,7 @@ jobs:
           # Common config
           user: jayvdb
           token: ${{ secrets.METRICS_TOKEN }}
+          output_condition: skip-if-only-metadata-changed
           output_action: commit
           committer_branch: main
           committer_message: Update ${filename} - [GitHub Action]

@@ -153,8 +153,8 @@ jobs:
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: 5037965
           plugin_stackoverflow_sections: answers-top, answers-recent
-          plugin_stackoverflow_limit: 3
-          plugin_stackoverflow_lines: 0
+          plugin_stackoverflow_limit: 4
+          plugin_stackoverflow_lines: 4
 
       - name: Update reactions.svg
         if: always()
@@ -272,8 +272,8 @@ jobs:
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: 5037965
           plugin_stackoverflow_sections: answers-top, answers-recent
-          plugin_stackoverflow_limit: 3
-          plugin_stackoverflow_lines: 0
+          plugin_stackoverflow_limit: 2
+          plugin_stackoverflow_lines: 2
           plugin_code: yes
           plugin_code_lines: 12
           plugin_code_load: 100

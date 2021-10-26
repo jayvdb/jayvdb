@@ -47,7 +47,6 @@ jobs:
           # Common config
           user: jayvdb
           token: ${{ secrets.METRICS_TOKEN }}
-          output_action: commit
           committer_branch: main
           committer_message: Update ${filename} - [GitHub Action]
           config_timezone: Etc/UTC
@@ -80,7 +79,6 @@ jobs:
           # Common config
           user: jayvdb
           token: ${{ secrets.METRICS_TOKEN }}
-          output_action: commit
           committer_branch: main
           committer_message: Update ${filename} - [GitHub Action]
           config_timezone: Etc/UTC
@@ -112,7 +110,6 @@ jobs:
           # Common config
           user: jayvdb
           token: ${{ secrets.METRICS_TOKEN }}
-          output_action: commit
           committer_branch: main
           committer_message: Update ${filename} - [GitHub Action]
           config_timezone: Etc/UTC
@@ -140,7 +137,6 @@ jobs:
           # Common config
           user: jayvdb
           token: ${{ secrets.METRICS_TOKEN }}
-          output_action: commit
           committer_branch: main
           committer_message: Update ${filename} - [GitHub Action]
           config_timezone: Etc/UTC
@@ -167,7 +163,6 @@ jobs:
           # Common config
           user: jayvdb
           token: ${{ secrets.METRICS_TOKEN }}
-          output_action: commit
           committer_branch: main
           committer_message: Update ${filename} - [GitHub Action]
           config_timezone: Etc/UTC
@@ -311,7 +306,6 @@ jobs:
           user: jayvdb
           token: ${{ secrets.METRICS_TOKEN }}
           output_action: skip-if-only-metadata-changed
-          output_action: commit
           committer_branch: main
           committer_message: Update ${filename} - [GitHub Action]
           config_timezone: Etc/UTC

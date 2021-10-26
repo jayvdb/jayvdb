@@ -21,7 +21,6 @@ jobs:
           # Common config
           user: jayvdb
           token: ${{ secrets.METRICS_TOKEN }}
-          output_action: commit
           committer_branch: main
           committer_message: Update ${filename} - [GitHub Action]
           config_timezone: Etc/UTC

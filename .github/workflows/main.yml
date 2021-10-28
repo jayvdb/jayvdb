@@ -40,6 +40,30 @@ jobs:
             * { font-size: 15px; }
             h2 { margin: 2px 5px 6px !important; }
 
+      - name: Update followup.svg
+        if: always()
+        uses: lowlighter/metrics@feat-followup-indepth
+        with:
+          # Common config
+          user: jayvdb
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_branch: main
+          committer_message: Update ${filename} - [GitHub Action]
+          config_timezone: Etc/UTC
+
+          # Output file
+          template: classic
+          config_display: large
+          filename: followup.svg
+          config_output: svg
+
+          # Output info
+          base: ""
+
+          plugin_followup: yes
+          plugin_followup_sections: repositories
+          plugin_followup_indepth: yes
+
       - name: Update languages.svg
         if: always()
         uses: lowlighter/metrics@main
@@ -183,6 +207,7 @@ jobs:
           plugin_reactions_limit_issues: 25
           plugin_reactions_days: 7
           plugin_reactions_details: count, percentage
+
   json:
     name: Generate JSON
     runs-on: ubuntu-latest

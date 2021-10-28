@@ -22,6 +22,10 @@
 
 ![](./recent-languages.svg)
 
+### Notable contributions
+
+![](./notable.svg)
+
 ### 🏅 Achievements
 
 ![](./achievements.svg)
@@ -30,9 +34,20 @@
 
 ![](./followup.svg)
 
-### Stack Overflow
+### Habits
 
+![](./habits.svg)
+
+![](./isocalendar.svg)
+
+### Code snippet
+
+![](./snippet.svg)
+
+### Stack Overflow
+<a href="https://stackoverflow.com/users/5037965">
 ![](./stackoverflow.svg)
+</a>
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

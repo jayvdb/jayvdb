@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Update stats.svg
         if: always()
-        uses: lowlighter/metrics@main
+        uses: lowlighter/metrics@fix-halving-batch-base
         with:
           # Common config
           user: jayvdb
@@ -42,7 +42,7 @@ jobs:
 
       - name: Update notable.svg
         if: always()
-        uses: lowlighter/metrics@main
+        uses: lowlighter/metrics@fix-halving-batch-base
         with:
           # Common config
           user: jayvdb
@@ -68,7 +68,7 @@ jobs:
 
       - name: Update habits.svg
         if: always()
-        uses: lowlighter/metrics@main
+        uses: lowlighter/metrics@fix-halving-batch-base
         with:
           # Common config
           user: jayvdb
@@ -93,7 +93,7 @@ jobs:
 
       - name: Update isocalendar.svg
         if: always()
-        uses: lowlighter/metrics@main
+        uses: lowlighter/metrics@fix-halving-batch-base
         with:
           # Common config
           user: jayvdb
@@ -115,7 +115,7 @@ jobs:
 
       - name: Update snippet.svg
         if: always()
-        uses: lowlighter/metrics@main
+        uses: lowlighter/metrics@fix-halving-batch-base
         with:
           # Common config
           user: jayvdb
@@ -141,7 +141,7 @@ jobs:
 
       - name: Update followup.svg
         if: always()
-        uses: lowlighter/metrics@main
+        uses: lowlighter/metrics@fix-halving-batch-base
         with:
           # Common config
           user: jayvdb
@@ -165,7 +165,7 @@ jobs:
 
       - name: Update languages.svg
         if: always()
-        uses: lowlighter/metrics@main
+        uses: lowlighter/metrics@fix-halving-batch-base
         with:
           # Common config
           user: jayvdb
@@ -197,7 +197,7 @@ jobs:
 
       - name: Update recent-languages.svg
         if: always()
-        uses: lowlighter/metrics@main
+        uses: lowlighter/metrics@fix-halving-batch-base
         with:
           # Common config
           user: jayvdb
@@ -228,7 +228,7 @@ jobs:
 
       - name: Update achievements.svg
         if: always()
-        uses: lowlighter/metrics@main
+        uses: lowlighter/metrics@fix-halving-batch-base
         with:
           # Common config
           user: jayvdb
@@ -255,7 +255,7 @@ jobs:
 
       - name: Update stackoverflow.svg
         if: always()
-        uses: lowlighter/metrics@main
+        uses: lowlighter/metrics@fix-halving-batch-base
         with:
           # Common config
           user: jayvdb
@@ -281,7 +281,7 @@ jobs:
 
       - name: Update reactions.svg
         if: always()
-        uses: lowlighter/metrics@main
+        uses: lowlighter/metrics@fix-halving-batch-base
         with:
           # Common config
           user: jayvdb
@@ -312,7 +312,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Generate JSON
-        uses: lowlighter/metrics@main
+        uses: lowlighter/metrics@fix-halving-batch-base
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
@@ -366,7 +366,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update main SVG
-        uses: lowlighter/metrics@main
+        uses: lowlighter/metrics@fix-halving-batch-base
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
@@ -420,7 +420,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update 'Insights' HTML
-        uses: lowlighter/metrics@main
+        uses: lowlighter/metrics@fix-halving-batch-base
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
@@ -435,7 +435,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update README.md
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@fix-halving-batch-base
         with:
           # Common config
           user: jayvdb

@@ -42,7 +42,7 @@ jobs:
 
       - name: Update notable.svg
         if: always()
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@feat-notable-indepth
         with:
           # Common config
           user: jayvdb
@@ -62,10 +62,11 @@ jobs:
 
           plugin_notable: yes
           plugin_notable_repositories: yes
+          plugin_notable_indepth: yes
 
       - name: Update habits.svg
         if: always()
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@main
         with:
           # Common config
           user: jayvdb
@@ -90,7 +91,7 @@ jobs:
 
       - name: Update isocalendar.svg
         if: always()
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@main
         with:
           # Common config
           user: jayvdb
@@ -101,7 +102,6 @@ jobs:
 
           # Output file
           template: classic
-          config_display: large
           filename: isocalendar.svg
           config_output: svg
 
@@ -113,7 +113,7 @@ jobs:
 
       - name: Update snippet.svg
         if: always()
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@main
         with:
           # Common config
           user: jayvdb
@@ -139,7 +139,7 @@ jobs:
 
       - name: Update followup.svg
         if: always()
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@main
         with:
           # Common config
           user: jayvdb
@@ -310,7 +310,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Generate JSON
-        uses: lowlighter/metrics@main
+        uses: lowlighter/metrics@feat-notable-indepth
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
@@ -345,6 +345,7 @@ jobs:
           plugin_lines: yes
           plugin_notable: yes
           plugin_notable_repositories: yes
+          plugin_notable_indepth: yes
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: 5037965
           plugin_stackoverflow_sections: answers-top, answers-recent
@@ -361,7 +362,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update main SVG
-        uses: lowlighter/metrics@main
+        uses: lowlighter/metrics@feat-notable-indepth
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
@@ -396,6 +397,7 @@ jobs:
           plugin_lines: yes
           plugin_notable: yes
           plugin_notable_repositories: yes
+          plugin_notable_indepth: yes
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: 5037965
           plugin_stackoverflow_sections: answers-top, answers-recent
@@ -423,10 +425,10 @@ jobs:
           template: classic
 
   readme-template:  # Use the template and generated resources to update the README
-    name: Generate README2
+    name: Generate README
     runs-on: ubuntu-latest
     steps:
-      - name: Update README2.md
+      - name: Update README.md
         uses: lowlighter/metrics@latest
         with:
           # Common config
@@ -442,7 +444,7 @@ jobs:
 
           # Output file
           template: markdown
-          filename: README2.md
+          filename: README.md
           config_output: markdown
 
           plugin_stackoverflow: yes

@@ -52,6 +52,6 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <h6 align="right"><em>
-    Generated with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics v3.15.0</a> 🛠️<br> <!-- VERSION => MAJOR.minor.patch -->
-    Last updated @ 29 Oct 2021, 06:19:08 / All times UTC ⌚ <!-- meta.generated => DD/MM/YYYY, hh:mm -->
+    Generated with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics v3.16.0-beta</a> 🛠️<br> <!-- VERSION => MAJOR.minor.patch -->
+    Last updated @ 29 Oct 2021, 07:57:04 / All times UTC ⌚ <!-- meta.generated => DD/MM/YYYY, hh:mm -->
 </em></h6>

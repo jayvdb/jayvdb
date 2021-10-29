@@ -1347,7 +1347,7 @@ h2, h3 { margin: 0px; opacity: 0%; width: 0px; height: 0px; }
         Recently used languages
       </h3>
                 <small>
-            estimation from 27 edited files from 71 commits over last 16 days
+            estimation from 27 edited files from 71 commits over last 17 days
           </small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="920" height="8">
                     <mask id="languages-bar">

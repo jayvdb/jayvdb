@@ -42,7 +42,7 @@ jobs:
 
       - name: Update notable.svg
         if: always()
-        uses: lowlighter/metrics@feat-notable-indepth
+        uses: lowlighter/metrics@main
         with:
           # Common config
           user: jayvdb
@@ -62,6 +62,8 @@ jobs:
 
           plugin_notable: yes
           plugin_notable_repositories: yes
+          plugin_notable_from: all
+          plugin_notable_filter: stars:>50
           plugin_notable_indepth: yes
 
       - name: Update habits.svg
@@ -310,7 +312,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Generate JSON
-        uses: lowlighter/metrics@feat-notable-indepth
+        uses: lowlighter/metrics@main
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
@@ -345,6 +347,8 @@ jobs:
           plugin_lines: yes
           plugin_notable: yes
           plugin_notable_repositories: yes
+          plugin_notable_from: all
+          plugin_notable_filter: stars:>50
           plugin_notable_indepth: yes
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: 5037965
@@ -362,7 +366,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update main SVG
-        uses: lowlighter/metrics@feat-notable-indepth
+        uses: lowlighter/metrics@main
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
@@ -397,6 +401,8 @@ jobs:
           plugin_lines: yes
           plugin_notable: yes
           plugin_notable_repositories: yes
+          plugin_notable_from: all
+          plugin_notable_filter: stars:>50
           plugin_notable_indepth: yes
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: 5037965

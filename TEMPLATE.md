@@ -12,23 +12,33 @@
 
 ### 📈 Stats
 
-![](./stats.svg)
+<a href="https://rawcdn.githack.com/jayvdb/jayvdb/main/github-metrics.html">
+<img src="./stats.svg">
+</a>
 
-### 📚 Most used languages <!-- by percentage, in decreasing order -->
+### 📚 Most used languages
 
-![](./languages.svg)
+<a href="https://rawcdn.githack.com/jayvdb/jayvdb/main/github-metrics.html">
+<img src="./languages.svg">
+</a>
 
 ### 📚 Recent languages
 
-![](./recent-languages.svg)
+<a href="https://rawcdn.githack.com/jayvdb/jayvdb/main/github-metrics.html">
+<img src="./recent-languages.svg">
+</a>
 
 ### Notable contributions
 
-![](./notable.svg)
+<a href="https://rawcdn.githack.com/jayvdb/jayvdb/main/github-metrics.html">
+<img src="./notable.svg">
+</a>
 
 ### 🏅 Achievements
 
-![](./achievements.svg)
+<a href="https://rawcdn.githack.com/jayvdb/jayvdb/main/github-metrics.html">
+<img src="./achievements.svg">
+</a>
 
 ### Followup
 
@@ -36,15 +46,18 @@
 
 ### Habits
 
-![](./habits.svg)
+<a href="https://rawcdn.githack.com/jayvdb/jayvdb/main/github-metrics.html">
+<img src="./habits.svg">
 
-![](./isocalendar.svg)
+<img src="./isocalendar.svg">
+</a>
 
 ### Code snippet
 
 ![](./snippet.svg)
 
 ### Stack Overflow
+
 <a href="https://stackoverflow.com/users/5037965">
 <img src="./stackoverflow.svg">
 </a>

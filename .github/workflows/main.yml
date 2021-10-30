@@ -459,3 +459,5 @@ jobs:
           plugin_stackoverflow_sections: answers-top, answers-recent
           plugin_stackoverflow_limit: 3
           plugin_stackoverflow_lines: 0
+
+          query: '{"superuser_id": 675050}'

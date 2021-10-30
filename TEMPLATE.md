@@ -1,13 +1,14 @@
 <p align="center">
-  <a href="https://www.linkedin.com/in/jayvdb/"><img src="https://img.shields.io/badge/-jayvdb-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jayvdb/" alt="Linkedin"></a>
-  <a href="https://en.wikipedia.org/wiki/user:jayvdb"><img src="https://img.shields.io/badge/edits-68384-F47F24?logo=wikipedia&style=flat-square" alt="English Wikipedia"></a>
+  <a href="https://www.linkedin.com/in/{{ user.login }}/"><img src="https://img.shields.io/badge/-{{ user.login }}-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/{{ user.login }}/" alt="Linkedin"></a>
+  <a href="https://en.wikipedia.org/wiki/user:{{ user.login }}"><img src="https://img.shields.io/badge/edits-68384-F47F24?logo=wikipedia&style=flat-square" alt="English Wikipedia"></a>
+  <a href="https://twitter.com/{{ user.twitterUsername }}"><img href=https://img.shields.io/twitter/follow/{{ user.twitterUsername }}?style=social"></a>
   <!-- See https://stackoverflow.com/questions/63376500/how-do-i-add-my-stack-overflow-reputation-as-a-live-badge-on-github -->
   <a href="https://stackoverflow.com/users/{{ plugins.stackoverflow.user.id }}"><img src="https://img.shields.io/badge/reputation-{{ plugins.stackoverflow.user.reputation }}-F47F24?logo=stackoverflow&style=flat-square" alt="StackOverflow"></a>
   <a href="https://superuser.com/users/{{ q.superuser_id }}"><img src="https://img.shields.io/badge/reputation-151-F47F24?logo=superuser&style=flat-square" alt="SuperUser"></a>
-  <a href="https://komarev.com/ghpvc/?username=jayvdb"><img src="https://komarev.com/ghpvc/?username=jayvdb" alt="GitHub profile view count"></a>
-  <a href="https://keybase.io/jayvdb"><img alt="Keybase PGP" src="https://img.shields.io/keybase/pgp/jayvdb?style=flat-square"><a>
+  <a href="https://komarev.com/ghpvc/?username={{ user.login }}"><img src="https://komarev.com/ghpvc/?username={{ user.login }}" alt="GitHub profile view count"></a>
+  <a href="https://keybase.io/{{ user.login }}"><img alt="Keybase PGP" src="https://img.shields.io/keybase/pgp/{{ user.login }}?style=flat-square"><a>
   <br>
-  <a href="https://www.openhub.net/accounts/jayvdb"><img alt='Open Hub profile for John Vandenberg' border='0' height='35' src='https://www.openhub.net/accounts/jayvdb/widgets/account_detailed?format=gif' width='230'></a>
+  <a href="https://www.openhub.net/accounts/{{ user.login }}"><img alt='Open Hub profile' border='0' height='35' src='https://www.openhub.net/accounts/{{ user.login }}/widgets/account_detailed?format=gif' width='230'></a>
 </p>
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -60,7 +61,7 @@
 
 ### Stack Overflow
 
-<a href="https://stackoverflow.com/users/5037965">
+<a href="https://stackoverflow.com/users/{{ plugins.stackoverflow.user.id }}">
 <img src="./stackoverflow.svg">
 </a>
 

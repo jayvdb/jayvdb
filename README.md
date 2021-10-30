@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/jayvdb/"><img src="https://img.shields.io/badge/-jayvdb-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jayvdb/" alt="Linkedin"></a>
   <!-- See https://stackoverflow.com/questions/63376500/how-do-i-add-my-stack-overflow-reputation-as-a-live-badge-on-github -->
-  <a href="https://stackoverflow.com/users/5037965"><img src="https://img.shields.io/badge/Reputation-199-F47F24?logo=stackoverflow&style=flat-square" alt="StackOverflow"></a>
+  <a href="https://stackoverflow.com/users/5037965"><img src="https://img.shields.io/badge/Reputation-301-F47F24?logo=stackoverflow&style=flat-square" alt="StackOverflow"></a>
   <a href="https://komarev.com/ghpvc/?username=jayvdb"><img src="https://komarev.com/ghpvc/?username=jayvdb" alt="GitHub profile view count"></a>
   <a href="https://keybase.io/jayvdb"><img alt="Keybase PGP" src="https://img.shields.io/keybase/pgp/jayvdb?style=flat-square"><a>
   <br>
@@ -12,23 +12,33 @@
 
 ### 📈 Stats
 
-![](./stats.svg)
+<a href="https://rawcdn.githack.com/jayvdb/jayvdb/main/github-metrics.html">
+<img src="./stats.svg">
+</a>
 
-### 📚 Most used languages <!-- by percentage, in decreasing order -->
+### 📚 Most used languages
 
-![](./languages.svg)
+<a href="https://rawcdn.githack.com/jayvdb/jayvdb/main/github-metrics.html">
+<img src="./languages.svg">
+</a>
 
 ### 📚 Recent languages
 
-![](./recent-languages.svg)
+<a href="https://rawcdn.githack.com/jayvdb/jayvdb/main/github-metrics.html">
+<img src="./recent-languages.svg">
+</a>
 
 ### Notable contributions
 
-![](./notable.svg)
+<a href="https://rawcdn.githack.com/jayvdb/jayvdb/main/github-metrics.html">
+<img src="./notable.svg">
+</a>
 
 ### 🏅 Achievements
 
-![](./achievements.svg)
+<a href="https://rawcdn.githack.com/jayvdb/jayvdb/main/github-metrics.html">
+<img src="./achievements.svg">
+</a>
 
 ### Followup
 
@@ -36,15 +46,18 @@
 
 ### Habits
 
-![](./habits.svg)
+<a href="https://rawcdn.githack.com/jayvdb/jayvdb/main/github-metrics.html">
+<img src="./habits.svg">
 
-![](./isocalendar.svg)
+<img src="./isocalendar.svg">
+</a>
 
 ### Code snippet
 
 ![](./snippet.svg)
 
 ### Stack Overflow
+
 <a href="https://stackoverflow.com/users/5037965">
 <img src="./stackoverflow.svg">
 </a>
@@ -53,5 +66,5 @@
 
 <h6 align="right"><em>
     Generated with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics v3.16.0-beta</a> 🛠️<br> <!-- VERSION => MAJOR.minor.patch -->
-    Last updated @ 29 Oct 2021, 07:57:04 / All times UTC ⌚ <!-- meta.generated => DD/MM/YYYY, hh:mm -->
+    Last updated @ 30 Oct 2021, 00:01:22 / All times UTC ⌚ <!-- meta.generated => DD/MM/YYYY, hh:mm -->
 </em></h6>

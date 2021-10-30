@@ -1605,7 +1605,7 @@ That will output:
 Luckily it can generate a lot of other formats, including raw JSON that could be used by other tools to render a shield layout.
 To create a shield, we can use its markdown format, and supply a template markdown file.
 Incorporating @Visal-rajapakse's answer, I use the following markdown in my <code>TEMPLATE.md</code>:
-<code class="language-multiline">&lt;a href="https://stackoverflow.com/users/5037965"&gt;
+<code class="language-multiline">&lt;a href="https://stackoverflow.com/users/{{ plugins.stackoverflow.user.id }}"&gt;
     
 <span class="token trimmed">(1 more line was trimmed)</span></code>
 To activate this, create a GitHub Action in your "special" username repo to run lowlighters' metrics tool on that template to generate the README.md

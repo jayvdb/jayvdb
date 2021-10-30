@@ -1,5 +1,6 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/jayvdb/"><img src="https://img.shields.io/badge/-jayvdb-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jayvdb/" alt="Linkedin"></a>
+  <a href="https://en.wikipedia.org/wiki/user:jayvdb"><img src="https://img.shields.io/badge/Edits- 68384-F47F24?logo=wikipedia&style=flat-square" alt="English Wikipedia"></a>
   <!-- See https://stackoverflow.com/questions/63376500/how-do-i-add-my-stack-overflow-reputation-as-a-live-badge-on-github -->
   <a href="https://stackoverflow.com/users/5037965"><img src="https://img.shields.io/badge/Reputation-301-F47F24?logo=stackoverflow&style=flat-square" alt="StackOverflow"></a>
   <a href="https://superuser.com/users/675050"><img src="https://img.shields.io/badge/Reputation-151-F47F24?logo=superuser&style=flat-square" alt="SuperUser"></a>
@@ -67,5 +68,5 @@
 
 <h6 align="right"><em>
     Generated with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics v3.16.0-beta</a> 🛠️<br> <!-- VERSION => MAJOR.minor.patch -->
-    Last updated @ 30 Oct 2021, 01:19:44 / All times UTC ⌚ <!-- meta.generated => DD/MM/YYYY, hh:mm -->
+    Last updated @ 30 Oct 2021, 04:41:48 / All times UTC ⌚ <!-- meta.generated => DD/MM/YYYY, hh:mm -->
 </em></h6>

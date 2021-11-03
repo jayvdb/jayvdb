@@ -47,6 +47,8 @@
 
 ![](./followup.svg)
 
+![](./reactions.svg)
+
 ### Habits
 
 <a href="https://rawcdn.githack.com/jayvdb/jayvdb/main/github-metrics.html">

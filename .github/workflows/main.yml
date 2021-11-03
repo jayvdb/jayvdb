@@ -304,7 +304,9 @@ jobs:
           plugin_reactions_ignored: github-actions[bot], dependabot[bot], dependabot-preview[bot]
           plugin_reactions_limit: 50
           plugin_reactions_limit_issues: 25
-          plugin_reactions_days: 7
+          plugin_reactions_limit_discussions: 200
+          plugin_reactions_limit_discussions_comments: 200
+          plugin_reactions_days: 30
           plugin_reactions_details: count, percentage
 
   json:

@@ -3,7 +3,7 @@
   <a href="https://en.wikipedia.org/wiki/user:jayvdb"><img src="https://img.shields.io/badge/edits-68384-F47F24?logo=wikipedia&style=flat-square" alt="English Wikipedia"></a>
   <a href="https://twitter.com/jayvdb"><img href=https://img.shields.io/twitter/follow/jayvdb?style=social"></a>
   <!-- See https://stackoverflow.com/questions/63376500/how-do-i-add-my-stack-overflow-reputation-as-a-live-badge-on-github -->
-  <a href="https://stackoverflow.com/users/5037965"><img src="https://img.shields.io/badge/reputation-313-F47F24?logo=stackoverflow&style=flat-square" alt="StackOverflow"></a>
+  <a href="https://stackoverflow.com/users/5037965"><img src="https://img.shields.io/badge/reputation-323-F47F24?logo=stackoverflow&style=flat-square" alt="StackOverflow"></a>
   <a href="https://superuser.com/users/675050"><img src="https://img.shields.io/badge/reputation-151-F47F24?logo=superuser&style=flat-square" alt="SuperUser"></a>
   <a href="https://komarev.com/ghpvc/?username=jayvdb"><img src="https://komarev.com/ghpvc/?username=jayvdb" alt="GitHub profile view count"></a>
   <a href="https://keybase.io/jayvdb"><img alt="Keybase PGP" src="https://img.shields.io/keybase/pgp/jayvdb?style=flat-square"><a>
@@ -71,5 +71,5 @@
 
 <h6 align="right"><em>
     Generated daily with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics v3.16.0-beta</a> 🛠️ <!-- VERSION => MAJOR.minor.patch -->
-    <!-- <br>Removed to avoid unnecessary commits: Last updated @ 6 Nov 2021, 01:57:43 / All times UTC ⌚ --><!-- meta.generated => DD/MM/YYYY, hh:mm -->
+    <!-- <br>Removed to avoid unnecessary commits: Last updated @ 7 Nov 2021, 02:03:34 / All times UTC ⌚ --><!-- meta.generated => DD/MM/YYYY, hh:mm -->
 </em></h6>

@@ -1546,7 +1546,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="119.81998631074606 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="119.90485968514713 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -1857,7 +1857,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="3.3324999999999996 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="3.4099999999999997 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g transform="translate(4 4)" fill="none" fill-rule="evenodd">
@@ -1881,18 +1881,18 @@
                   <span class="prefix">Great</span> maintainer
                   
                     <span class="gh">
-                      ranked 30k out of 238m repositories
+                      ranked 29.9k out of 238m repositories
                     </span>
                   
                   
                     <div class="value-wrapper">
                       <div class="value">
-                        1086
+                        1088
                       </div>
                     </div>
                   
                 </div>
-                                <div class="text">Maintaining a repository with 1086 stars</div>
+                                <div class="text">Maintaining a repository with 1088 stars</div>
                             </div>
                         </div>
                         <div class="achievement c largeable-width-half">

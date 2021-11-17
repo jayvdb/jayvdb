@@ -70,6 +70,6 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <h6 align="right"><em>
-    Generated daily with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics v3.16.0-beta</a> 🛠️ <!-- VERSION => MAJOR.minor.patch -->
-    <!-- <br>Removed to avoid unnecessary commits: Last updated @ 16 Nov 2021, 02:00:39 / All times UTC ⌚ --><!-- meta.generated => DD/MM/YYYY, hh:mm -->
+    Generated daily with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics v3.17.0-beta</a> 🛠️ <!-- VERSION => MAJOR.minor.patch -->
+    <!-- <br>Removed to avoid unnecessary commits: Last updated @ 17 Nov 2021, 02:00:38 / All times UTC ⌚ --><!-- meta.generated => DD/MM/YYYY, hh:mm -->
 </em></h6>

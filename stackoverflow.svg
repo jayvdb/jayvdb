@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="883" class="large">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="777" class="large">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-fade{0%{opacity:0}to{opacity:1}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}svg.large .largeable-align-start{align-items:flex-start}svg.large .largeable-column-fields,svg.large .largeable-flex-wrap{display:flex;flex-wrap:wrap}svg.large .largeable-column-fields&gt;.field{width:230px}svg.large .largeable-width-half{width:50%}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.field.language{margin:0 8px;flex-grow:0}.repository{display:flex;flex-direction:column;width:100%;margin:6px 0}.repository .name{display:flex;align-items:center;justify-content:space-between;width:440px}.repository .name span:first-child{color:#58a6ff}.repository .name span:last-child{color:#666;font-size:10px}.repository .infos{color:#666;margin-left:38px;font-size:13px}.repository .infos&gt;div{display:flex;align-items:center;margin-right:16px}.repository .infos svg{margin:0 4px 0 0}.stackoverflow{margin-left:38px}.stackoverflow .entry{margin:4px 0 12px}.stackoverflow .title{color:#58a6ff;white-space:normal;align-items:flex-start}.stackoverflow .body,.stackoverflow .infos{color:#666;font-size:13px;margin-left:32px}.stackoverflow .infos{display:flex;align-items:center}.stackoverflow .infos&gt;div{display:inline-flex;align-items:center;margin-right:16px}.stackoverflow .infos svg{fill:currentColor;height:12px;width:12px;margin:0 4px 0 0;flex-shrink:0}.stackoverflow .body{overflow:hidden;text-overflow:ellipsis;border-left:3px solid #777777b2;padding-left:6px;width:400px}.markdown i{width:97%}.markdown a{color:#58a6ff;text-decoration:none}code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.markdown i,code{display:inline-block}code[class^=language-]{white-space:pre-wrap;width:97%;margin-top:4px}span.code{margin:0 4px -3px}.token.comment{color:#690}.token.regex,.token.string{color:#2777aa}.token.builtin{color:#106cbc}.token.trimmed{font-style:italic;color:#77777760}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}.stackoverflow .body{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-fade{0%{opacity:0}to{opacity:1}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}svg.large .largeable-align-start{align-items:flex-start}svg.large .largeable-column-fields,svg.large .largeable-flex-wrap{display:flex;flex-wrap:wrap}svg.large .largeable-column-fields&gt;.field{width:230px}svg.large .largeable-width-half{width:50%}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.field.language{margin:0 8px;flex-grow:0}.repository{display:flex;flex-direction:column;width:100%;margin:6px 0}.repository .name{display:flex;align-items:center;justify-content:space-between;width:440px}.repository .name span:first-child{color:#58a6ff}.repository .name span:last-child{color:#666;font-size:10px}.repository .infos{color:#666;margin-left:38px;font-size:13px}.repository .infos&gt;div{display:flex;align-items:center;margin-right:16px}.repository .infos svg{margin:0 4px 0 0}.stackoverflow{margin-left:38px}.stackoverflow .entry{margin:4px 0 12px}.stackoverflow .title{color:#58a6ff;white-space:normal;align-items:flex-start}.stackoverflow .body,.stackoverflow .infos{color:#666;font-size:13px;margin-left:32px}.stackoverflow .infos{display:flex;align-items:center}.stackoverflow .infos&gt;div{display:inline-flex;align-items:center;margin-right:16px}.stackoverflow .infos svg{fill:currentColor;height:12px;width:12px;margin:0 4px 0 0;flex-shrink:0}.stackoverflow .body{overflow:hidden;text-overflow:ellipsis;border-left:3px solid#777777b2;padding-left:6px;width:400px}.markdown i{width:97%}.markdown a{color:#58a6ff;text-decoration:none}code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.markdown i,code{display:inline-block}code[class^=language-]{white-space:pre-wrap;width:97%;margin-top:4px}span.code{margin:0 4px -3px}.token.comment{color:#690}.token.regex,.token.string{color:#2777aa}.token.builtin{color:#106cbc}.token.trimmed{font-style:italic;color:#77777760}.space{margin-left:7px}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}.stackoverflow .body{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4}</style>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
             <section>
@@ -96,11 +96,9 @@ I created a small script
                                         commands so that consecutive similar commits would be squashed.  I used author-date-and-shortlog to match similar commits, but you only need author (my gist has a comment about how to make it match only on author).
                                         <code>$ generate-similiar-commit-squashes.sh &gt; /tmp/git-rebase-todo-list</code>
                                         The output looks like
-                                        <code class="language-multiline">
-                                            ...
+                                        <code class="language-multiline" xml:space="preserve">...
 pick aaff1c556004539a54a7a33ce2fb859af0c4238c foo@example.com-2015-01-01-Update-head.html
-                                            <span class="token trimmed">(2 more lines were trimmed)</span>
-                                        </code>
+<span class="token trimmed">(2 more lines were trimmed)</span></code>
                                         The repository was also full of self-reverts with the same style 'Update xyz' commit messages.  When squashed, they resulted in empty commits.
 The commits I was merging had identical commit messages.
                                         <code>git rebase -i</code>
@@ -109,11 +107,9 @@ The commits I was merging had identical commit messages.
                                         .  It is better in a file, as it will be used in a shell variable.
                                         <code>$ echo 'print if ! $x{$_}++' &gt; /tmp/strip-seen-lines.pl</code>
                                         Now for the final step:
-                                        <code class="language-multiline">
-                                            $ GIT_EDITOR='perl -i -n -f /tmp/strip-seen-lines.pl ' \
+                                        <code class="language-multiline" xml:space="preserve">$ GIT_EDITOR='perl -i -n -f /tmp/strip-seen-lines.pl ' \
   GIT_SEQUENCE_EDITOR='cat /tmp/git-rebase-todo-list &gt;' \
-                                            <span class="token trimmed">(1 more line was trimmed)</span>
-                                        </code>
+<span class="token trimmed">(1 more line was trimmed)</span></code>
                                         Despite using
                                         <code>--keep-empty</code>
                                         ,
@@ -121,7 +117,7 @@ The commits I was merging had identical commit messages.
                                         complained a few times through this process about empty commits.  It would dump me out to the console with an incomplete
                                         <code>git rebase</code>
                                         .  To skip the empty commit and resume processing, the following two commands were needed (rather frequently in my case).
-                                        <code class="language-multiline">$ git reset HEAD^
+                                        <code class="language-multiline" xml:space="preserve">$ git reset HEAD^
 $ GIT_EDITOR='perl -i -n -f /tmp/strip-seen-lines.pl ' git rebase --continue</code>
                                         Again despite
                                         <code>--keep-empty</code>
@@ -288,7 +284,7 @@ Then you need to add this path to
                                         installed the package (it should be under
                                         <code>/Users/your_username/</code>
                                         somewhere).
-                                        <code class="language-multiline">export PYTHONPATH="/Users/your_username/Library/...:$PYTHONPATH"
+                                        <code class="language-multiline" xml:space="preserve">export PYTHONPATH="/Users/your_username/Library/...:$PYTHONPATH"
 pip show pyopenssl</code>
                                         If that works, add the above
                                         <code>export ..</code>
@@ -348,19 +344,15 @@ pip show pyopenssl</code>
                                         Using the standard lib
                                         <code>urlparse</code>
                                         will fail to parse many valid git URLs.
-                                        <code class="language-multiline">
-                                            &gt;&gt;&gt; from urllib.parse import urlparse
+                                        <code class="language-multiline" xml:space="preserve">&gt;&gt;&gt; from urllib.parse import urlparse
 &gt;&gt;&gt; urlparse('git@github.com:Org/Private-repo.git')
-                                            <span class="token trimmed">(1 more line was trimmed)</span>
-                                        </code>
+<span class="token trimmed">(1 more line was trimmed)</span></code>
                                         https://pypi.python.org/pypi/git-url-parse is a fairly good parser of git URLs with a similar interface to
                                         <code>urlparse</code>
                                         .
-                                        <code class="language-multiline">
-                                            &gt;&gt;&gt; import giturlparse
+                                        <code class="language-multiline" xml:space="preserve">&gt;&gt;&gt; import giturlparse
 &gt;&gt;&gt; url = giturlparse.parse('ssh://git@gitlab.com:3333/org/repo.git')
-                                            <span class="token trimmed">(4 more lines were trimmed)</span>
-                                        </code>
+<span class="token trimmed">(4 more lines were trimmed)</span></code>
                                         https://pypi.org/project/giturlparse/ is another one, which is more recently updated, and uses a similar API.
 Note both of those PyPI packages install to directory
                                         <code>giturlparse</code>
@@ -435,17 +427,14 @@ To create a shield, we can use its markdown format, and supply a template markdo
 Incorporating @Visal-rajapakse's answer, I use the following markdown in my
                                         <code>TEMPLATE.md</code>
                                         :
-                                        <code class="language-multiline">
-                                            &lt;a href="https://stackoverflow.com/users/{{ plugins.stackoverflow.user.id }}"&gt;
-                                            <span class="token trimmed">(1 more line was trimmed)</span>
-                                        </code>
+                                        <code class="language-multiline" xml:space="preserve">&lt;a href="https://stackoverflow.com/users/{{ plugins.stackoverflow.user.id }}"&gt;
+    
+<span class="token trimmed">(1 more line was trimmed)</span></code>
                                         To activate this, create a GitHub Action in your "special" username repo to run lowlighters' metrics tool on that template to generate the README.md
 Here is my GitHub action.  Substitute 'jayvdb' and '5037965' with your Github username and SO userid:
-                                        <code class="language-multiline">
-                                            name: Metrics
+                                        <code class="language-multiline" xml:space="preserve">name: Metrics
 on:
-                                            <span class="token trimmed">(35 more lines were trimmed)</span>
-                                        </code>
+<span class="token trimmed">(35 more lines were trimmed)</span></code>
                                         If you only want a SO widget, there are a few other readme widgets/generators with various builtin layouts, but none of them currently support a shield layout.  They are easier to use, and the authors may be willing to adding a shield layout.
 
 https://github.com/omidnikrah/github-readme-stackoverflow provides two layouts currently, and I've added an issue to add a shield layout.
@@ -571,19 +560,15 @@ After adding these inline comments disabling lines, or specific rules on lines, 
                                         Using the standard lib
                                         <code>urlparse</code>
                                         will fail to parse many valid git URLs.
-                                        <code class="language-multiline">
-                                            &gt;&gt;&gt; from urllib.parse import urlparse
+                                        <code class="language-multiline" xml:space="preserve">&gt;&gt;&gt; from urllib.parse import urlparse
 &gt;&gt;&gt; urlparse('git@github.com:Org/Private-repo.git')
-                                            <span class="token trimmed">(1 more line was trimmed)</span>
-                                        </code>
+<span class="token trimmed">(1 more line was trimmed)</span></code>
                                         https://pypi.python.org/pypi/git-url-parse is a fairly good parser of git URLs with a similar interface to
                                         <code>urlparse</code>
                                         .
-                                        <code class="language-multiline">
-                                            &gt;&gt;&gt; import giturlparse
+                                        <code class="language-multiline" xml:space="preserve">&gt;&gt;&gt; import giturlparse
 &gt;&gt;&gt; url = giturlparse.parse('ssh://git@gitlab.com:3333/org/repo.git')
-                                            <span class="token trimmed">(4 more lines were trimmed)</span>
-                                        </code>
+<span class="token trimmed">(4 more lines were trimmed)</span></code>
                                         https://pypi.org/project/giturlparse/ is another one, which is more recently updated, and uses a similar API.
 Note both of those PyPI packages install to directory
                                         <code>giturlparse</code>

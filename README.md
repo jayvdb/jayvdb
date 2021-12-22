@@ -10,7 +10,8 @@
   <a href="https://komarev.com/ghpvc/?username=jayvdb"><img src="https://komarev.com/ghpvc/?username=jayvdb" alt="GitHub profile view count"></a>
   <a href="https://keybase.io/jayvdb"><img alt="Keybase PGP" src="https://img.shields.io/keybase/pgp/jayvdb?style=flat-square"><a>
   <br>
-  <a href="https://www.openhub.net/accounts/jayvdb"><img alt='Open Hub profile' border='0' height='35' src='https://www.openhub.net/accounts/jayvdb/widgets/account_detailed?format=gif' width='230'></a>
+  <a href="https://stackoverflow.com/users/5037965"><img src="https://stackoverflow-readme-profile.johannchopin.fr/profile-small/5037965"></a>
+  <a href="https://www.openhub.net/accounts/jayvdb"><img alt='Open Hub profile' border='0' height='60' width='450'  src='https://www.openhub.net/accounts/jayvdb/widgets/account_detailed?format=gif'></a>
 </p>
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -73,5 +74,5 @@
 
 <h6 align="right"><em>
     Generated daily with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics v3.17.0-beta</a> 🛠️ <!-- VERSION => MAJOR.minor.patch -->
-    <!-- <br>Removed to avoid unnecessary commits: Last updated @ 22 Dec 2021, 02:08:11 / All times UTC ⌚ --><!-- meta.generated => DD/MM/YYYY, hh:mm -->
+    <!-- <br>Removed to avoid unnecessary commits: Last updated @ 22 Dec 2021, 10:58:36 / All times UTC ⌚ --><!-- meta.generated => DD/MM/YYYY, hh:mm -->
 </em></h6>

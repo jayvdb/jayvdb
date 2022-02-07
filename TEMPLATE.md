@@ -4,7 +4,7 @@
   <a href="https://twitter.com/{{ user.twitterUsername }}"><img href=https://img.shields.io/twitter/follow/{{ user.twitterUsername }}?style=social"></a>
   <!-- See https://stackoverflow.com/questions/63376500/how-do-i-add-my-stack-overflow-reputation-as-a-live-badge-on-github -->
   <a href="https://stackoverflow.com/users/{{ plugins.stackoverflow.user.id }}"><img src="https://img.shields.io/badge/reputation-{{ plugins.stackoverflow.user.reputation }}-F47F24?logo=stackoverflow&style=flat-square" alt="StackOverflow"></a>
-  <a href="https://opensource.stackexchange.com/users/25491/jayvdb"><img src="https://img.shields.io/badge/FOS_reputation-154-39739D?logo=stackexchange&style=flat-square" alt="StackOverflow"></a>
+  <a href="https://opensource.stackexchange.com/users/25491/jayvdb"><img src="https://img.shields.io/badge/FOS_reputation-164-39739D?logo=stackexchange&style=flat-square" alt="StackOverflow"></a>
   <a href="https://superuser.com/users/{{ q.superuser_id }}"><img src="https://img.shields.io/badge/reputation-151-38A1CE?logo=superuser&style=flat-square" alt="SuperUser"></a>
     <a href="https://bugs.launchpad.net/~{{ user.login }}"><img src="https://img.shields.io/badge/bugs-26-EAEA71?logo=launchpad&style=flat-square" alt="LaunchPad"></a>
   <a href="https://komarev.com/ghpvc/?username={{ user.login }}"><img src="https://komarev.com/ghpvc/?username={{ user.login }}" alt="GitHub profile view count"></a>

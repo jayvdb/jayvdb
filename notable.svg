@@ -19,7 +19,7 @@
                         <span class="name">@wikimedia/pywikibot</span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="16.812625250501004 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="16.8 329"/>
                             <text x="15" y="15" dominant-baseline="central">816</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -28,7 +28,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
                             <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="329 329"/>
-                            <text x="15" y="15" dominant-baseline="central">463</text>
+                            <text x="15" y="15" dominant-baseline="central">464</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                             <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
@@ -88,7 +88,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
                             <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="329 329"/>
-                            <text x="15" y="15" dominant-baseline="central">5.64k</text>
+                            <text x="15" y="15" dominant-baseline="central">5.65k</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                             <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
@@ -107,7 +107,7 @@
                         </svg>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="95.7090909090909 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="95.41993957703929 329"/>
                             <text x="15" y="15" dominant-baseline="central">96</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -168,6 +168,26 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
                             <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="3.2254901960784315 329"/>
+                            <text x="15" y="15" dominant-baseline="central">1</text>
+                        </svg>
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
+                        </svg>
+                    </div>
+                    <div class="organization contribution  ">
+                        <img class="organization avatar" src="data:image/png;base64,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" width="16" height="16" />
+                        <span class="name">@Riverside-Healthcare/djLint</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
+                            <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="4.677725118483412 329"/>
+                            <text x="15" y="15" dominant-baseline="central">6</text>
+                        </svg>
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
+                            <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="6.3269230769230775 329"/>
                             <text x="15" y="15" dominant-baseline="central">1</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -239,7 +259,7 @@
                         </svg>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="1.9622266401590456 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="1.9583333333333333 329"/>
                             <text x="15" y="15" dominant-baseline="central">3</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -271,7 +291,7 @@
                         <span class="name">@browniebroke/django-codemod</span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="1.4467897977132806 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="1.445518453427065 329"/>
                             <text x="15" y="15" dominant-baseline="central">5</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -299,7 +319,7 @@
                         </svg>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="1.1669849931787175 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="1.1666666666666667 329"/>
                             <text x="15" y="15" dominant-baseline="central">13</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -435,7 +455,7 @@
                         <span class="name">@lowlighter/metrics</span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.5393442622950819 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.5355398806294085 329"/>
                             <text x="15" y="15" dominant-baseline="central">3</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -443,7 +463,7 @@
                         </svg>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.5098798915149167 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.5074224021592443 329"/>
                             <text x="15" y="15" dominant-baseline="central">8</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -455,7 +475,7 @@
                         <span class="name">@pinterest/pymemcache</span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.514866979655712 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.5140625 329"/>
                             <text x="15" y="15" dominant-baseline="central">1</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -483,7 +503,7 @@
                         </svg>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.6047794117647058 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.6036697247706422 329"/>
                             <text x="15" y="15" dominant-baseline="central">1</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -495,7 +515,7 @@
                         <span class="name">@Nuitka/Nuitka</span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.29463785962162764 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.29450598634888664 329"/>
                             <text x="15" y="15" dominant-baseline="central">8</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -575,7 +595,7 @@
                         </svg>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.2644694533762058 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.26436319807151465 329"/>
                             <text x="15" y="15" dominant-baseline="central">2</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -595,7 +615,7 @@
                         </svg>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.24811463046757165 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.2473684210526316 329"/>
                             <text x="15" y="15" dominant-baseline="central">1</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -615,7 +635,7 @@
                         </svg>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.12627134906927653 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.126198695818949 329"/>
                             <text x="15" y="15" dominant-baseline="central">2</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">

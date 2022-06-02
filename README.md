@@ -5,7 +5,7 @@
   <!-- See https://stackoverflow.com/questions/63376500/how-do-i-add-my-stack-overflow-reputation-as-a-live-badge-on-github -->
   <a href="https://stackoverflow.com/users/5037965"><img src="https://img.shields.io/badge/reputation-393-F47F24?logo=stackoverflow&style=flat-square" alt="StackOverflow"></a>
   <a href="https://opensource.stackexchange.com/users/25491/jayvdb"><img src="https://img.shields.io/badge/FOS_reputation-164-39739D?logo=stackexchange&style=flat-square" alt="StackOverflow"></a>
-  <a href="https://superuser.com/users/675050"><img src="https://img.shields.io/badge/reputation-151-38A1CE?logo=superuser&style=flat-square" alt="SuperUser"></a>
+  <a href="https://superuser.com/users/675050"><img src="https://img.shields.io/badge/reputation-153-38A1CE?logo=superuser&style=flat-square" alt="SuperUser"></a>
     <a href="https://bugs.launchpad.net/~jayvdb"><img src="https://img.shields.io/badge/bugs-26-EAEA71?logo=launchpad&style=flat-square" alt="LaunchPad"></a>
   <a href="https://komarev.com/ghpvc/?username=jayvdb"><img src="https://komarev.com/ghpvc/?username=jayvdb" alt="GitHub profile view count"></a>
   <a href="https://keybase.io/jayvdb"><img alt="Keybase PGP" src="https://img.shields.io/keybase/pgp/jayvdb?style=flat-square"><a>
@@ -60,6 +60,9 @@
 <img src="./isocalendar.svg">
 </a>
 
+<img src="./calendar.svg">
+</a>
+
 ### Code snippet
 
 ![](./snippet.svg)
@@ -74,5 +77,5 @@
 
 <h6 align="right"><em>
     Generated daily with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics v3.24.0</a> 🛠️ <!-- VERSION => MAJOR.minor.patch -->
-    <!-- <br>Removed to avoid unnecessary commits: Last updated @ 2 Jun 2022, 03:17:23 / All times UTC ⌚ --><!-- meta.generated => DD/MM/YYYY, hh:mm -->
+    <!-- <br>Removed to avoid unnecessary commits: Last updated @ 2 Jun 2022, 05:36:51 / All times UTC ⌚ --><!-- meta.generated => DD/MM/YYYY, hh:mm -->
 </em></h6>

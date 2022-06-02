@@ -60,6 +60,9 @@
 <img src="./isocalendar.svg">
 </a>
 
+<img src="./calendar.svg">
+</a>
+
 ### Code snippet
 
 ![](./snippet.svg)

@@ -20,19 +20,19 @@ h2, h3 { margin: 0px; opacity: 0%; width: 0px; height: 0px; }
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 13kb of code in 58 edited files across 105 commits over last 23 days</small>
+                <small>estimation from 12.2kb of code in 55 edited files across 103 commits over last 23 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="920" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="661.7675941080196" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="661.7675941080196" y="0" width="65.04746317512274" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="726.8150572831423" y="0" width="61.734860883797054" height="8" fill="#701516"/>
-                    <rect mask="url(#languages-bar)" x="788.5499181669395" y="0" width="57.217675941080195" height="8" fill="#00B4AB"/>
-                    <rect mask="url(#languages-bar)" x="845.7675941080197" y="0" width="49.387888707037646" height="8" fill="#a270ba"/>
-                    <rect mask="url(#languages-bar)" x="895.1554828150573" y="0" width="14.153846153846155" height="8" fill="#d0b68c"/>
-                    <rect mask="url(#languages-bar)" x="909.3093289689034" y="0" width="10.690671031096564" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="627.0332187857962" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="627.0332187857962" y="0" width="75.87628865979381" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="702.90950744559" y="0" width="72.01221840397099" height="8" fill="#701516"/>
+                    <rect mask="url(#languages-bar)" x="774.921725849561" y="0" width="66.7430316914853" height="8" fill="#00B4AB"/>
+                    <rect mask="url(#languages-bar)" x="841.6647575410464" y="0" width="57.60977472317678" height="8" fill="#a270ba"/>
+                    <rect mask="url(#languages-bar)" x="899.2745322642231" y="0" width="12.47040855288278" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="911.7449408171059" y="0" width="8.255059182894234" height="8" fill="#d0b68c"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -67,15 +67,15 @@ h2, h3 { margin: 0px; opacity: 0%; width: 0px; height: 0px; }
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                            <path fill="#d0b68c" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                        </svg>
-                        Coq
-                    </div>
-                    <div class="field center no-wrap language">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                             <path fill="#89e051" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
                         Shell
+                    </div>
+                    <div class="field center no-wrap language">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill="#d0b68c" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                        </svg>
+                        Coq
                     </div>
                 </div>
             </section>

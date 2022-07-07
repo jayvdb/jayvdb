@@ -28,7 +28,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
                             <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="329 329"/>
-                            <text x="15" y="15" dominant-baseline="central">366</text>
+                            <text x="15" y="15" dominant-baseline="central">367</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                             <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
@@ -99,7 +99,7 @@
                         <span class="name">@swift-nav/libsbp</span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="21.601010101010104 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="21.531807780320364 329"/>
                             <text x="15" y="15" dominant-baseline="central">143</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -159,7 +159,7 @@
                         <span class="name">@Riverside-Healthcare/djLint</span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="3.1941747572815533 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="3.0557275541795663 329"/>
                             <text x="15" y="15" dominant-baseline="central">6</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -167,7 +167,7 @@
                         </svg>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="2.764705882352941 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="2.67479674796748 329"/>
                             <text x="15" y="15" dominant-baseline="central">1</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -339,7 +339,7 @@
                         </svg>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.6882845188284519 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.6873259052924792 329"/>
                             <text x="15" y="15" dominant-baseline="central">3</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -379,7 +379,7 @@
                         </svg>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.49742969458723924 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.49727932285368803 329"/>
                             <text x="15" y="15" dominant-baseline="central">5</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -399,7 +399,7 @@
                         </svg>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.5039828431372549 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.5033659730722154 329"/>
                             <text x="15" y="15" dominant-baseline="central">5</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -431,7 +431,7 @@
                         <span class="name">@lowlighter/metrics</span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.46710837671557026 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.4666666666666667 329"/>
                             <text x="15" y="15" dominant-baseline="central">3</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -439,7 +439,7 @@
                         </svg>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.48003714020427113 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.4785770960063475 329"/>
                             <text x="15" y="15" dominant-baseline="central">11</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -459,7 +459,7 @@
                         </svg>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.464853408689509 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.4645252382633251 329"/>
                             <text x="15" y="15" dominant-baseline="central">4</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -499,7 +499,7 @@
                         </svg>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.2806369064543645 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.2804774083546462 329"/>
                             <text x="15" y="15" dominant-baseline="central">6</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">

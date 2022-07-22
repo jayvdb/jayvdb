@@ -61,6 +61,7 @@ jobs:
           filename: notable.svg
           config_output: svg
           plugins_errors_fatal: true
+          repositories_batch: 5
 
           # Output info
           base: ""

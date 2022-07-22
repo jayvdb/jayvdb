@@ -82,6 +82,7 @@ jobs:
           config_output: svg
           plugins_errors_fatal: true
           repositories_batch: 5
+          debug: true  # Investigate why @wikimedia/pywikibot is missing
 
           # Output info
           base: ""
@@ -92,6 +93,7 @@ jobs:
           plugin_notable_from: all
           plugin_notable_filter: stars:>50
           plugin_notable_indepth: true
+          plugin_notable_types: commit, issue, pull_request
 
       - name: Update habits.svg
         if: always()

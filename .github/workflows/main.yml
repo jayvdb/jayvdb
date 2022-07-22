@@ -82,6 +82,8 @@ jobs:
           config_output: svg
           plugins_errors_fatal: true
           repositories_batch: 5
+          repositories_forks: true
+          repositories_affiliations: owner, collaborator, organization_member
           debug: true  # Investigate why @wikimedia/pywikibot is missing
 
           # Output info

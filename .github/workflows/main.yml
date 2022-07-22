@@ -44,6 +44,26 @@ jobs:
             * { font-size: 15px; }
             h2 { margin: 2px 5px 6px !important; }
 
+      - name: Update stargazers.svg
+        if: always()
+        uses: lowlighter/metrics@main
+        with:
+          user: jayvdb
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_branch: main
+          committer_message: Update ${filename} - [GitHub Action]
+          config_timezone: Etc/UTC
+
+          config_display: large
+          filename: stargazers.svg
+          config_output: svg
+
+          base: ""
+
+          plugin_stargazers: true
+          plugin_stargazers_charts: true
+          plugin_stargazers_charts_type: chartist
+
       - name: Update notable.svg
         if: always()
         uses: lowlighter/metrics@main

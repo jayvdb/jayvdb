@@ -1,5 +1,6 @@
+---
 name: Metrics
-on:
+"on":
   # Schedule updates (each hour)
   schedule: [{cron: "0 1 * * *"}]
   # Lines below let you run workflow manually and on each commit (optional)
@@ -32,10 +33,13 @@ jobs:
           config_output: svg
 
           # Output info
-          base: "header, activity, community, repositories"  # Which stats to show
-          plugin_lines: yes  # Include total added & removed lines
-          # Because of GitHub REST API limitation, provided token requires full repo scope to access traffic informations.
-          # plugin_traffic: yes  # Views in the last 2 weeks
+          # Which stats to show
+          base: "header, activity, community, repositories"
+          base_indepth: true
+          plugin_lines: true  # Include total added & removed lines
+          # Because of GitHub REST API limitation, provided token requires
+          # full repo scope to access traffic information.
+          # plugin_traffic: true  # Views in the last 2 weeks
           extras_css: |  # Make it prettier
             * { font-size: 15px; }
             h2 { margin: 2px 5px 6px !important; }
@@ -56,15 +60,17 @@ jobs:
           config_display: large
           filename: notable.svg
           config_output: svg
+          plugins_errors_fatal: true
 
           # Output info
           base: ""
+          base_indepth: true
 
-          plugin_notable: yes
-          plugin_notable_repositories: yes
+          plugin_notable: true
+          plugin_notable_repositories: true
           plugin_notable_from: all
           plugin_notable_filter: stars:>50
-          plugin_notable_indepth: yes
+          plugin_notable_indepth: true
 
       - name: Update habits.svg
         if: always()
@@ -85,10 +91,11 @@ jobs:
 
           # Output info
           base: ""
+          base_indepth: true
 
-          plugin_habits: yes
+          plugin_habits: true
           plugin_habits_days: 14
-          plugin_habits_facts: yes
+          plugin_habits_facts: true
           plugin_habits_from: 200
 
       - name: Update isocalendar.svg
@@ -109,8 +116,9 @@ jobs:
 
           # Output info
           base: ""
+          base_indepth: true
 
-          plugin_isocalendar: yes
+          plugin_isocalendar: true
           plugin_isocalendar_duration: half-year
 
       - name: Update calendar.svg
@@ -131,8 +139,9 @@ jobs:
 
           # Output info
           base: ""
+          base_indepth: true
 
-          plugin_calendar: yes
+          plugin_calendar: true
           plugin_calendar_limit: 4
 
       - name: Update snippet.svg
@@ -155,7 +164,7 @@ jobs:
           # Output info
           base: ""
 
-          plugin_code: yes
+          plugin_code: true
           plugin_code_days: 7
           plugin_code_lines: 12
           plugin_code_load: 1000
@@ -182,10 +191,11 @@ jobs:
 
           # Output info
           base: ""
+          base_indepth: true
 
-          plugin_followup: yes
+          plugin_followup: true
           plugin_followup_sections: repositories
-          plugin_followup_indepth: yes
+          plugin_followup_indepth: true
 
       - name: Update languages.svg
         if: always()
@@ -206,7 +216,9 @@ jobs:
 
           # Output info
           base: ""
-          plugin_languages: yes  # Show language bar
+          base_indepth: true
+
+          plugin_languages: true  # Show language bar
           plugin_languages_sections: most-used
           plugin_languages_categories: data, markup, programming, prose  # All categories
           plugin_languages_details: bytes-size, percentage  # Show percentages, with 2 decimals of precision
@@ -238,7 +250,9 @@ jobs:
 
           # Output info
           base: ""
-          plugin_languages: yes  # Show language bar
+          base_indepth: true
+
+          plugin_languages: true  # Show language bar
           plugin_languages_sections: recently-used
           plugin_languages_recent_categories: programming
           plugin_languages_recent_days: 30
@@ -269,9 +283,11 @@ jobs:
 
           # Output info
           base: ""
-          plugin_achievements: yes  # Show achievements
+          base_indepth: true
+
+          plugin_achievements: true  # Show achievements
           plugin_achievements_threshold: C  # Show all unlocked achievements
-          plugin_achievements_secrets: yes  # Include secret achievements
+          plugin_achievements_secrets: true  # Include secret achievements
           plugin_achievements_limit: 0  # All that can fit
           plugin_achievements_display: compact  # Compact layout
           extras_css: |  # Make it prettier
@@ -297,7 +313,7 @@ jobs:
           # Output info
           base: ""
 
-          plugin_stackoverflow: yes
+          plugin_stackoverflow: true
           plugin_stackoverflow_user: 5037965
           plugin_stackoverflow_sections: answers-top, answers-recent
           plugin_stackoverflow_limit: 4
@@ -322,8 +338,9 @@ jobs:
 
           # Output info
           base: ""
+          base_indepth: true
 
-          plugin_reactions: yes
+          plugin_reactions: true
           plugin_reactions_display: absolute  # Or 'relative'
           plugin_reactions_ignored: github-actions[bot], dependabot[bot], dependabot-preview[bot]
           plugin_reactions_limit: 100
@@ -348,16 +365,18 @@ jobs:
           user: jayvdb
           template: classic
           base: header, activity, community, repositories, metadata
+          base_indepth: true
+
           config_timezone: Australia/Perth
-          plugin_followup: yes
+          plugin_followup: true
           plugin_followup_sections: repositories
-          plugin_habits: yes
+          plugin_habits: true
           plugin_habits_days: 14
-          plugin_habits_facts: yes
+          plugin_habits_facts: true
           plugin_habits_from: 200
-          plugin_isocalendar: yes
+          plugin_isocalendar: true
           plugin_isocalendar_duration: half-year
-          plugin_languages: yes
+          plugin_languages: true
           plugin_languages_categories: markup, programming, data, prose
           plugin_languages_details: bytes-size, percentage
           plugin_languages_colors: github
@@ -367,21 +386,21 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used, recently-used
           plugin_languages_threshold: 0%
-          plugin_achievements: yes
-          plugin_achievements_secrets: yes
+          plugin_achievements: true
+          plugin_achievements_secrets: true
           plugin_achievements_display: compact
-          plugin_lines: yes
-          plugin_notable: yes
-          plugin_notable_repositories: yes
+          plugin_lines: true
+          plugin_notable: true
+          plugin_notable_repositories: true
           plugin_notable_from: all
           plugin_notable_filter: stars:>50
-          plugin_notable_indepth: yes
-          plugin_stackoverflow: yes
+          plugin_notable_indepth: true
+          plugin_stackoverflow: true
           plugin_stackoverflow_user: 5037965
           plugin_stackoverflow_sections: questions-top, answers-top, answers-recent
           plugin_stackoverflow_limit: 2
           plugin_stackoverflow_lines: 2
-          plugin_code: yes
+          plugin_code: true
           plugin_code_lines: 12
           plugin_code_load: 100
           plugin_code_visibility: public
@@ -403,16 +422,18 @@ jobs:
           user: jayvdb
           template: classic
           base: header, activity, community, repositories, metadata
-          plugin_followup: yes
+          base_indepth: true
+
+          plugin_followup: true
           plugin_followup_sections: repositories
-          plugin_habits: yes
+          plugin_habits: true
           plugin_habits_days: 14
-          plugin_habits_facts: yes
+          plugin_habits_facts: true
           plugin_habits_from: 200
-          plugin_isocalendar: yes
+          plugin_isocalendar: true
           plugin_isocalendar_duration: half-year
-          plugin_languages: yes
-          plugin_languages_indepth: yes
+          plugin_languages: true
+          plugin_languages_indepth: true
           plugin_languages_categories: markup, programming, data, prose
           plugin_languages_details: bytes-size, percentage
           plugin_languages_colors: github
@@ -422,21 +443,21 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used, recently-used
           plugin_languages_threshold: 0%
-          plugin_achievements: yes
-          plugin_achievements_secrets: yes
+          plugin_achievements: true
+          plugin_achievements_secrets: true
           plugin_achievements_display: compact
-          plugin_lines: yes
-          plugin_notable: yes
-          plugin_notable_repositories: yes
+          plugin_lines: true
+          plugin_notable: true
+          plugin_notable_repositories: true
           plugin_notable_from: all
           plugin_notable_filter: stars:>50
-          plugin_notable_indepth: yes
-          plugin_stackoverflow: yes
+          plugin_notable_indepth: true
+          plugin_stackoverflow: true
           plugin_stackoverflow_user: 5037965
           plugin_stackoverflow_sections: questions-top, answers-top, answers-recent
           plugin_stackoverflow_limit: 2
           plugin_stackoverflow_lines: 2
-          plugin_code: yes
+          plugin_code: true
           plugin_code_lines: 12
           plugin_code_load: 100
           plugin_code_visibility: public
@@ -480,7 +501,7 @@ jobs:
           filename: README.md
           config_output: markdown
 
-          plugin_stackoverflow: yes
+          plugin_stackoverflow: true
           plugin_stackoverflow_user: 5037965
           plugin_stackoverflow_sections: questions-top, answers-top, answers-recent
           plugin_stackoverflow_limit: 3

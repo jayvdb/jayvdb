@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="470" class="large">
+    <defs>
+        <style/>
+    </defs>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;color:#777}h2,h3{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400}h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3,svg{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.margin-bottom{margin-bottom:16px}.chartist .ct-post{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important;font-size:9px;text-anchor:middle}.chart{padding:0 8px}.ct-chart{display:flex;margin-left:-12px}.ct-line,.ct-point{stroke-width:2px!important;stroke:#58a6ff!important}.ct-point{stroke:#106cbc!important}.ct-area{fill:#58a6ff!important}.ct-label{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important}.ct-label.ct-horizontal{text-anchor:middle!important}.ct-grid{stroke:rgba(127,127,127,.4)!important}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}#metrics-end{width:100%}.ct-label{font-size:.75rem;line-height:1}.ct-line{fill:none}.ct-chart-line .ct-label{display:block;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex}.ct-label.ct-horizontal.ct-end,.ct-label.ct-vertical.ct-end{-webkit-box-align:flex-start;-webkit-align-items:flex-start;-ms-flex-align:flex-start;align-items:flex-start;-webkit-box-pack:flex-start;-webkit-justify-content:flex-start;-ms-flex-pack:flex-start;justify-content:flex-start;text-align:left;text-anchor:start}.ct-label.ct-vertical.ct-end{-webkit-box-align:flex-end;-webkit-align-items:flex-end;-ms-flex-align:flex-end;align-items:flex-end}.ct-grid{stroke-width:1px;stroke-dasharray:2px}.ct-point{stroke-linecap:round}.ct-line{}.ct-area{stroke:none;fill-opacity:.1}.ct-legend{margin-top:1em}.ct-series-a .ct-line,.ct-series-a .ct-point{background-color:#87ceeb;stroke:#87ceeb}.ct-series-a .ct-area{fill:#87ceeb}</style>
+    <style/>
+    <foreignObject x="0" y="0" width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
+            <section class="stargazers">
+                <h2 class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                        <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
+                    </svg>
+                    Stargazers over the last two weeks
+                </h2>
+                <div class="row margin-bottom">
+                    <section class="column chart chartist">
+                        <h3>Total stargazers</h3>
+                        <div class="ct-chart">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="960" height="160" class="ct-chart-line">
+                                <!-- (optimized css) -->
+                                <g class="ct-grids">
+                                    <line y1="125" y2="125" x1="30" x2="945" class="ct-grid ct-vertical"/>
+                                    <line y1="88.33333333333334" y2="88.33333333333334" x1="30" x2="945" class="ct-grid ct-vertical"/>
+                                    <line y1="51.66666666666667" y2="51.66666666666667" x1="30" x2="945" class="ct-grid ct-vertical"/>
+                                    <line y1="15" y2="15" x1="30" x2="945" class="ct-grid ct-vertical"/>
+                                </g>
+                                <g>
+                                    <g class="ct-series ct-series-a">
+                                        <path d="M30,125L30,36.267C45.25,36.267,60.5,36.267,75.75,36.267C91,36.267,106.25,36.267,121.5,36.267C136.75,36.267,152,36.267,167.25,36.267C182.5,36.267,197.75,36.267,213,36.267C228.25,36.267,243.5,36.267,258.75,36.267C274,36.267,289.25,36.267,304.5,36.267C319.75,36.267,335,36.267,350.25,36.267C365.5,36.267,380.75,36.267,396,36.267C411.25,36.267,426.5,36.267,441.75,36.267C457,36.267,472.25,36.267,487.5,36.267C502.75,36.267,518,36.267,533.25,36.267C548.5,36.267,563.75,36.267,579,36.267C594.25,36.267,609.5,36.267,624.75,36.267C640,36.267,655.25,36.267,670.5,36.267C685.75,36.267,701,36.267,716.25,36.267C731.5,36.267,746.75,36.267,762,36.267C777.25,36.267,792.5,36.267,807.75,36.267C823,36.267,838.25,36.267,853.5,36.267C868.75,36.267,884,36.267,899.25,36.267C914.5,36.267,929.75,36.267,945,36.267L945,125Z" class="ct-area"/>
+                                        <path d="M30,36.267C45.25,36.267,60.5,36.267,75.75,36.267C91,36.267,106.25,36.267,121.5,36.267C136.75,36.267,152,36.267,167.25,36.267C182.5,36.267,197.75,36.267,213,36.267C228.25,36.267,243.5,36.267,258.75,36.267C274,36.267,289.25,36.267,304.5,36.267C319.75,36.267,335,36.267,350.25,36.267C365.5,36.267,380.75,36.267,396,36.267C411.25,36.267,426.5,36.267,441.75,36.267C457,36.267,472.25,36.267,487.5,36.267C502.75,36.267,518,36.267,533.25,36.267C548.5,36.267,563.75,36.267,579,36.267C594.25,36.267,609.5,36.267,624.75,36.267C640,36.267,655.25,36.267,670.5,36.267C685.75,36.267,701,36.267,716.25,36.267C731.5,36.267,746.75,36.267,762,36.267C777.25,36.267,792.5,36.267,807.75,36.267C823,36.267,838.25,36.267,853.5,36.267C868.75,36.267,884,36.267,899.25,36.267C914.5,36.267,929.75,36.267,945,36.267" class="ct-line"/>
+                                        <line x1="30" y1="36.266666666666666" x2="30.01" y2="36.266666666666666" class="ct-point" ct:value="121"/>
+                                        <line x1="75.75" y1="36.266666666666666" x2="75.76" y2="36.266666666666666" class="ct-point" ct:value="121"/>
+                                        <line x1="121.5" y1="36.266666666666666" x2="121.51" y2="36.266666666666666" class="ct-point" ct:value="121"/>
+                                        <line x1="167.25" y1="36.266666666666666" x2="167.26" y2="36.266666666666666" class="ct-point" ct:value="121"/>
+                                        <line x1="213" y1="36.266666666666666" x2="213.01" y2="36.266666666666666" class="ct-point" ct:value="121"/>
+                                        <line x1="258.75" y1="36.266666666666666" x2="258.76" y2="36.266666666666666" class="ct-point" ct:value="121"/>
+                                        <line x1="304.5" y1="36.266666666666666" x2="304.51" y2="36.266666666666666" class="ct-point" ct:value="121"/>
+                                        <line x1="350.25" y1="36.266666666666666" x2="350.26" y2="36.266666666666666" class="ct-point" ct:value="121"/>
+                                        <line x1="396" y1="36.266666666666666" x2="396.01" y2="36.266666666666666" class="ct-point" ct:value="121"/>
+                                        <line x1="441.75" y1="36.266666666666666" x2="441.76" y2="36.266666666666666" class="ct-point" ct:value="121"/>
+                                        <line x1="487.5" y1="36.266666666666666" x2="487.51" y2="36.266666666666666" class="ct-point" ct:value="121"/>
+                                        <line x1="533.25" y1="36.266666666666666" x2="533.26" y2="36.266666666666666" class="ct-point" ct:value="121"/>
+                                        <line x1="579" y1="36.266666666666666" x2="579.01" y2="36.266666666666666" class="ct-point" ct:value="121"/>
+                                        <line x1="624.75" y1="36.266666666666666" x2="624.76" y2="36.266666666666666" class="ct-point" ct:value="121"/>
+                                        <line x1="670.5" y1="36.266666666666666" x2="670.51" y2="36.266666666666666" class="ct-point" ct:value="121"/>
+                                        <line x1="716.25" y1="36.266666666666666" x2="716.26" y2="36.266666666666666" class="ct-point" ct:value="121"/>
+                                        <line x1="762" y1="36.266666666666666" x2="762.01" y2="36.266666666666666" class="ct-point" ct:value="121"/>
+                                        <line x1="807.75" y1="36.266666666666666" x2="807.76" y2="36.266666666666666" class="ct-point" ct:value="121"/>
+                                        <line x1="853.5" y1="36.266666666666666" x2="853.51" y2="36.266666666666666" class="ct-point" ct:value="121"/>
+                                        <line x1="899.25" y1="36.266666666666666" x2="899.26" y2="36.266666666666666" class="ct-point" ct:value="121"/>
+                                        <line x1="945" y1="36.266666666666666" x2="945.01" y2="36.266666666666666" class="ct-point" ct:value="121"/>
+                                    <text x="30" y="31.266666666666666" class="ct-post">121</text><text x="75.75" y="31.266666666666666" class="ct-post">121</text><text x="121.5" y="31.266666666666666" class="ct-post">121</text><text x="167.25" y="31.266666666666666" class="ct-post">121</text><text x="213" y="31.266666666666666" class="ct-post">121</text><text x="258.75" y="31.266666666666666" class="ct-post">121</text><text x="304.5" y="31.266666666666666" class="ct-post">121</text><text x="350.25" y="31.266666666666666" class="ct-post">121</text><text x="396" y="31.266666666666666" class="ct-post">121</text><text x="441.75" y="31.266666666666666" class="ct-post">121</text><text x="487.5" y="31.266666666666666" class="ct-post">121</text><text x="533.25" y="31.266666666666666" class="ct-post">121</text><text x="579" y="31.266666666666666" class="ct-post">121</text><text x="624.75" y="31.266666666666666" class="ct-post">121</text><text x="670.5" y="31.266666666666666" class="ct-post">121</text><text x="716.25" y="31.266666666666666" class="ct-post">121</text><text x="762" y="31.266666666666666" class="ct-post">121</text><text x="807.75" y="31.266666666666666" class="ct-post">121</text><text x="853.5" y="31.266666666666666" class="ct-post">121</text><text x="899.25" y="31.266666666666666" class="ct-post">121</text><text x="945" y="31.266666666666666" class="ct-post">121</text></g>
+                                </g>
+                                <g class="ct-labels">
+                                    <text x="30" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">02 July</text>
+                                    <text x="75.75" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">03</text>
+                                    <text x="121.5" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">04</text>
+                                    <text x="167.25" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">05</text>
+                                    <text x="213" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">06</text>
+                                    <text x="258.75" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">07</text>
+                                    <text x="304.5" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">08</text>
+                                    <text x="350.25" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">09</text>
+                                    <text x="396" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">10</text>
+                                    <text x="441.75" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">11</text>
+                                    <text x="487.5" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">12</text>
+                                    <text x="533.25" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">13</text>
+                                    <text x="579" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">14</text>
+                                    <text x="624.75" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">15</text>
+                                    <text x="670.5" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">16</text>
+                                    <text x="716.25" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">17</text>
+                                    <text x="762" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">18</text>
+                                    <text x="807.75" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">19</text>
+                                    <text x="853.5" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">20</text>
+                                    <text x="899.25" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">21</text>
+                                    <text x="945" y="145" width="30" height="20" class="ct-label ct-horizontal ct-end">22</text>
+                                </g>
+                            </svg>
+                            <div class="ct-legend">
+                            </div>
+                        </div>
+                    </section>
+                    <section class="column chart chartist">
+                        <h3>New stargazers per day</h3>
+                        <div class="ct-chart">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="960" height="160" class="ct-chart-line">
+                                <!-- (optimized css) -->
+                                <g class="ct-grids">
+                                    <line y1="125" y2="125" x1="30" x2="945" class="ct-grid ct-vertical"/>
+                                    <line y1="97.5" y2="97.5" x1="30" x2="945" class="ct-grid ct-vertical"/>
+                                    <line y1="70" y2="70" x1="30" x2="945" class="ct-grid ct-vertical"/>
+                                    <line y1="42.5" y2="42.5" x1="30" x2="945" class="ct-grid ct-vertical"/>
+                                    <line y1="15" y2="15" x1="30" x2="945" class="ct-grid ct-vertical"/>
+                                </g>
+                                <g>
+                                    <g class="ct-series ct-series-a">
+                                        <path d="M30,125L30,125C45.25,125,60.5,125,75.75,125C91,125,106.25,125,121.5,125C136.75,125,152,125,167.25,125C182.5,125,197.75,125,213,125C228.25,125,243.5,125,258.75,125C274,125,289.25,125,304.5,125C319.75,125,335,125,350.25,125C365.5,125,380.75,125,396,125C411.25,125,426.5,125,441.75,125C457,125,472.25,125,487.5,125C502.75,125,518,125,533.25,125C548.5,125,563.75,125,579,125C594.25,125,609.5,125,624.75,125C640,125,655.25,125,670.5,125C685.75,125,701,125,716.25,125C731.5,125,746.75,125,762,125C777.25,125,792.5,125,807.75,125C823,125,838.25,125,853.5,125C868.75,125,884,125,899.25,125C914.5,125,929.75,125,945,125L945,125Z" class="ct-area"/>
+                                        <path d="M30,125C45.25,125,60.5,125,75.75,125C91,125,106.25,125,121.5,125C136.75,125,152,125,167.25,125C182.5,125,197.75,125,213,125C228.25,125,243.5,125,258.75,125C274,125,289.25,125,304.5,125C319.75,125,335,125,350.25,125C365.5,125,380.75,125,396,125C411.25,125,426.5,125,441.75,125C457,125,472.25,125,487.5,125C502.75,125,518,125,533.25,125C548.5,125,563.75,125,579,125C594.25,125,609.5,125,624.75,125C640,125,655.25,125,670.5,125C685.75,125,701,125,716.25,125C731.5,125,746.75,125,762,125C777.25,125,792.5,125,807.75,125C823,125,838.25,125,853.5,125C868.75,125,884,125,899.25,125C914.5,125,929.75,125,945,125" class="ct-line"/>
+                                        <line x1="30" y1="125" x2="30.01" y2="125" class="ct-point" ct:value="0"/>
+                                        <line x1="75.75" y1="125" x2="75.76" y2="125" class="ct-point" ct:value="0"/>
+                                        <line x1="121.5" y1="125" x2="121.51" y2="125" class="ct-point" ct:value="0"/>
+                                        <line x1="167.25" y1="125" x2="167.26" y2="125" class="ct-point" ct:value="0"/>
+                                        <line x1="213" y1="125" x2="213.01" y2="125" class="ct-point" ct:value="0"/>
+                                        <line x1="258.75" y1="125" x2="258.76" y2="125" class="ct-point" ct:value="0"/>
+                                        <line x1="304.5" y1="125" x2="304.51" y2="125" class="ct-point" ct:value="0"/>
+                                        <line x1="350.25" y1="125" x2="350.26" y2="125" class="ct-point" ct:value="0"/>
+                                        <line x1="396" y1="125" x2="396.01" y2="125" class="ct-point" ct:value="0"/>
+                                        <line x1="441.75" y1="125" x2="441.76" y2="125" class="ct-point" ct:value="0"/>
+                                        <line x1="487.5" y1="125" x2="487.51" y2="125" class="ct-point" ct:value="0"/>
+                                        <line x1="533.25" y1="125" x2="533.26" y2="125" class="ct-point" ct:value="0"/>
+                                        <line x1="579" y1="125" x2="579.01" y2="125" class="ct-point" ct:value="0"/>
+                                        <line x1="624.75" y1="125" x2="624.76" y2="125" class="ct-point" ct:value="0"/>
+                                        <line x1="670.5" y1="125" x2="670.51" y2="125" class="ct-point" ct:value="0"/>
+                                        <line x1="716.25" y1="125" x2="716.26" y2="125" class="ct-point" ct:value="0"/>
+                                        <line x1="762" y1="125" x2="762.01" y2="125" class="ct-point" ct:value="0"/>
+                                        <line x1="807.75" y1="125" x2="807.76" y2="125" class="ct-point" ct:value="0"/>
+                                        <line x1="853.5" y1="125" x2="853.51" y2="125" class="ct-point" ct:value="0"/>
+                                        <line x1="899.25" y1="125" x2="899.26" y2="125" class="ct-point" ct:value="0"/>
+                                        <line x1="945" y1="125" x2="945.01" y2="125" class="ct-point" ct:value="0"/>
+                                    <text x="30" y="120" class="ct-post">0</text><text x="75.75" y="120" class="ct-post">0</text><text x="121.5" y="120" class="ct-post">0</text><text x="167.25" y="120" class="ct-post">0</text><text x="213" y="120" class="ct-post">0</text><text x="258.75" y="120" class="ct-post">0</text><text x="304.5" y="120" class="ct-post">0</text><text x="350.25" y="120" class="ct-post">0</text><text x="396" y="120" class="ct-post">0</text><text x="441.75" y="120" class="ct-post">0</text><text x="487.5" y="120" class="ct-post">0</text><text x="533.25" y="120" class="ct-post">0</text><text x="579" y="120" class="ct-post">0</text><text x="624.75" y="120" class="ct-post">0</text><text x="670.5" y="120" class="ct-post">0</text><text x="716.25" y="120" class="ct-post">0</text><text x="762" y="120" class="ct-post">0</text><text x="807.75" y="120" class="ct-post">0</text><text x="853.5" y="120" class="ct-post">0</text><text x="899.25" y="120" class="ct-post">0</text><text x="945" y="120" class="ct-post">0</text></g>
+                                </g>
+                                <g class="ct-labels">
+                                    <text x="30" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">02 July</text>
+                                    <text x="75.75" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">03</text>
+                                    <text x="121.5" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">04</text>
+                                    <text x="167.25" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">05</text>
+                                    <text x="213" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">06</text>
+                                    <text x="258.75" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">07</text>
+                                    <text x="304.5" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">08</text>
+                                    <text x="350.25" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">09</text>
+                                    <text x="396" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">10</text>
+                                    <text x="441.75" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">11</text>
+                                    <text x="487.5" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">12</text>
+                                    <text x="533.25" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">13</text>
+                                    <text x="579" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">14</text>
+                                    <text x="624.75" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">15</text>
+                                    <text x="670.5" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">16</text>
+                                    <text x="716.25" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">17</text>
+                                    <text x="762" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">18</text>
+                                    <text x="807.75" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">19</text>
+                                    <text x="853.5" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">20</text>
+                                    <text x="899.25" y="145" width="45.75" height="20" class="ct-label ct-horizontal ct-end">21</text>
+                                    <text x="945" y="145" width="30" height="20" class="ct-label ct-horizontal ct-end">22</text>
+                                </g>
+                            </svg>
+                            <div class="ct-legend">
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </div>
+        <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
+    </foreignObject>
+</svg>

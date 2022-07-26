@@ -36,6 +36,7 @@ jobs:
           # Which stats to show
           base: "header, activity, community, repositories"
           base_indepth: true
+          repositories_skipped: jayvdb/jayvdb.github.io, jayvdb/wyam-test
           plugin_lines: true  # Include total added & removed lines
           # Because of GitHub REST API limitation, provided token requires
           # full repo scope to access traffic information.
@@ -79,10 +80,12 @@ jobs:
           config_output: svg
 
           base: ""
+          repositories_skipped: jayvdb/jayvdb.github.io, jayvdb/wyam-test
 
           plugin_lines: true
           plugin_lines_sections: base, repositories, history
-          plugin_lines_repositories_limit: 10
+          plugin_lines_repositories_limit: 30
+          plugin_lines_skipped: jayvdb/jayvdb.github.io, jayvdb/wyam-test
 
       - name: Update notable.svg
         if: always()
@@ -109,6 +112,7 @@ jobs:
           # Output info
           base: ""
           base_indepth: true
+          repositories_skipped: jayvdb/jayvdb.github.io, jayvdb/wyam-test
 
           plugin_notable: true
           plugin_notable_repositories: true
@@ -137,6 +141,7 @@ jobs:
           # Output info
           base: ""
           base_indepth: true
+          repositories_skipped: jayvdb/jayvdb.github.io, jayvdb/wyam-test
 
           plugin_habits: true
           plugin_habits_days: 14
@@ -162,6 +167,7 @@ jobs:
           # Output info
           base: ""
           base_indepth: true
+          repositories_skipped: jayvdb/jayvdb.github.io, jayvdb/wyam-test
 
           plugin_isocalendar: true
           plugin_isocalendar_duration: half-year
@@ -185,6 +191,7 @@ jobs:
           # Output info
           base: ""
           base_indepth: true
+          repositories_skipped: jayvdb/jayvdb.github.io, jayvdb/wyam-test
 
           plugin_calendar: true
           plugin_calendar_limit: 4
@@ -208,6 +215,7 @@ jobs:
 
           # Output info
           base: ""
+          repositories_skipped: jayvdb/jayvdb.github.io, jayvdb/wyam-test
 
           plugin_code: true
           plugin_code_days: 7
@@ -237,6 +245,7 @@ jobs:
           # Output info
           base: ""
           base_indepth: true
+          repositories_skipped: jayvdb/jayvdb.github.io, jayvdb/wyam-test
 
           plugin_followup: true
           plugin_followup_sections: repositories
@@ -262,6 +271,7 @@ jobs:
           # Output info
           base: ""
           base_indepth: true
+          repositories_skipped: jayvdb/jayvdb.github.io, jayvdb/wyam-test
 
           plugin_languages: true  # Show language bar
           plugin_languages_sections: most-used
@@ -296,6 +306,7 @@ jobs:
           # Output info
           base: ""
           base_indepth: true
+          repositories_skipped: jayvdb/jayvdb.github.io, jayvdb/wyam-test
 
           plugin_languages: true  # Show language bar
           plugin_languages_sections: recently-used
@@ -329,6 +340,7 @@ jobs:
           # Output info
           base: ""
           base_indepth: true
+          repositories_skipped: jayvdb/jayvdb.github.io, jayvdb/wyam-test
 
           plugin_achievements: true  # Show achievements
           plugin_achievements_threshold: C  # Show all unlocked achievements
@@ -384,6 +396,7 @@ jobs:
           # Output info
           base: ""
           base_indepth: true
+          repositories_skipped: jayvdb/jayvdb.github.io, jayvdb/wyam-test
 
           plugin_reactions: true
           plugin_reactions_display: absolute  # Or 'relative'
@@ -412,6 +425,7 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           base_indepth: true
+          repositories_skipped: jayvdb/jayvdb.github.io, jayvdb/wyam-test
 
           config_timezone: Australia/Perth
           plugin_followup: true
@@ -469,6 +483,7 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           base_indepth: true
+          repositories_skipped: jayvdb/jayvdb.github.io, jayvdb/wyam-test
 
           plugin_followup: true
           plugin_followup_sections: repositories
@@ -523,6 +538,7 @@ jobs:
           output_action: skip-if-only-metadata-changed
           user: jayvdb
           template: classic
+          repositories_skipped: jayvdb/jayvdb.github.io, jayvdb/wyam-test
 
   readme-template:  # Use the template and generated resources to update the README
     name: Generate README
@@ -546,6 +562,8 @@ jobs:
           template: markdown
           filename: README.md
           config_output: markdown
+
+          repositories_skipped: jayvdb/jayvdb.github.io, jayvdb/wyam-test
 
           plugin_stackoverflow: true
           plugin_stackoverflow_user: 5037965

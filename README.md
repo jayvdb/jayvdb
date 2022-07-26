@@ -22,6 +22,10 @@
 <img src="./stats.svg">
 </a>
 
+<a href="https://rawcdn.githack.com/jayvdb/jayvdb/main/github-metrics.html">
+<img src="./lines.svg">
+</a>
+
 ### 📚 Most used languages
 
 <a href="https://rawcdn.githack.com/jayvdb/jayvdb/main/github-metrics.html">

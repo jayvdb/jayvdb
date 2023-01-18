@@ -103,7 +103,9 @@ jobs:
           config_display: large
           filename: notable.svg
           config_output: svg
-          # plugins_errors_fatal: true
+          plugins_errors_fatal: true
+          repositories_skipped: |
+            franklin-ai/*
           repositories_batch: 5
           repositories_forks: true
           repositories_affiliations: owner, collaborator, organization_member

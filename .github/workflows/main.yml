@@ -104,8 +104,6 @@ jobs:
           filename: notable.svg
           config_output: svg
           plugins_errors_fatal: true
-          repositories_skipped: |
-            franklin-ai/*
           repositories_batch: 5
           repositories_forks: true
           repositories_affiliations: owner, collaborator, organization_member
@@ -114,8 +112,14 @@ jobs:
           # Output info
           base: ""
           base_indepth: true
-          repositories_skipped: jayvdb/jayvdb.github.io, jayvdb/wyam-test, jayvdb/pywikibot-osx-wheels, jayvdb/pe-id-en, jayvdb/emplace-data, jayvdb/my-ci-test
-
+          repositories_skipped: |
+            jayvdb/jayvdb.github.io
+            jayvdb/wyam-test
+            jayvdb/pywikibot-osx-wheels
+            jayvdb/pe-id-en
+            jayvdb/emplace-data
+            jayvdb/my-ci-test
+            franklin-ai/*
           plugin_notable: true
           plugin_notable_repositories: true
           plugin_notable_from: all

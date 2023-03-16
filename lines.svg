@@ -2,7 +2,7 @@
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;color:#777}h2,h3{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400}h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3,svg{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.margin-bottom{margin-bottom:16px}.margin-lr-auto{margin-left:auto;margin-right:auto}.chartist .ct-post{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important;font-size:9px;text-anchor:middle}.diff-handle{color:#58a6ff;max-width:200px;text-overflow:ellipsis;overflow:hidden}.large .diff-handle{max-width:400px}.diff-box{display:inline-block;width:8px;height:8px;margin-left:1px;background-color:rgba(110,118,129,.4);border:1px solid rgba(246,240,251,.1)}.diff-box:first-child{margin-left:9px}.diff-box.added{background-color:#3fb950}.diff-box.deleted{background-color:#da3633}.diff-stats,code,span.code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.diff-stats{margin-left:4px;font-weight:700;font-size:12px;white-space:pre}.added{color:#3fb950}.deleted{color:#da3633}code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777}code{display:inline-block}span.code{margin:0 4px -3px}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}#metrics-end{width:100%}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;color:#777}h2,h3{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400}h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3,svg{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.margin-bottom{margin-bottom:16px}.margin-lr-auto{margin-left:auto;margin-right:auto}.diff-handle{color:#58a6ff;max-width:200px;text-overflow:ellipsis;overflow:hidden}.large .diff-handle{max-width:400px}.diff-box{display:inline-block;width:8px;height:8px;margin-left:1px;background-color:rgba(110,118,129,.4);border:1px solid rgba(246,240,251,.1)}.diff-box:first-child{margin-left:9px}.diff-box.added{background-color:#3fb950}.diff-box.deleted{background-color:#da3633}.diff-stats,code,span.code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.diff-stats{margin-left:4px;font-weight:700;font-size:12px;white-space:pre}.added{color:#3fb950}.deleted{color:#da3633}code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777}code{display:inline-block}span.code{margin:0 4px -3px}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}#metrics-end{width:100%}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -19,12 +19,6 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
-                            <span class="diff-handle">jayvdb/SunQA</span>
-                        </div>
-                        <div class="field">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
-                            </svg>
                             <span class="diff-handle">jayvdb/bibutils-archive</span>
                         </div>
                         <div class="field">
@@ -32,6 +26,12 @@
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
                             <span class="diff-handle">jayvdb/jayvdb</span>
+                        </div>
+                        <div class="field">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
+                            </svg>
+                            <span class="diff-handle">jayvdb/citeproc-test</span>
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -55,19 +55,13 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
-                            <span class="diff-handle">jayvdb/angular5-Table</span>
+                            <span class="diff-handle">jayvdb/uplift-interview-cards</span>
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
-                            <span class="diff-handle">jayvdb/pypidb</span>
-                        </div>
-                        <div class="field">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
-                            </svg>
-                            <span class="diff-handle">jayvdb/plstok</span>
+                            <span class="diff-handle">jayvdb/pe-id</span>
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -75,20 +69,14 @@
                             </svg>
                             <span class="diff-handle">jayvdb/loklak_wok_android</span>
                         </div>
+                        <div class="field">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
+                            </svg>
+                            <span class="diff-handle">jayvdb/https-everywhere-py</span>
+                        </div>
                     </section>
                     <section>
-                        <div class="field">
-                            <div class="diff-box added"></div>
-                            <div class="diff-box added"></div>
-                            <div class="diff-box added"></div>
-                            <div class="diff-box deleted"></div>
-                            <div class="diff-box deleted"></div>
-                            <div class="diff-stats">
-                                <span class="added">  +341k</span>
-                                <span class="deleted">  -242k</span>
-                            </div>
-                            <span> </span>
-                        </div>
                         <div class="field">
                             <div class="diff-box added"></div>
                             <div class="diff-box added"></div>
@@ -109,7 +97,19 @@
                             <div class="diff-box deleted"></div>
                             <div class="diff-stats">
                                 <span class="added">  +281k</span>
-                                <span class="deleted">  -265k</span>
+                                <span class="deleted">  -266k</span>
+                            </div>
+                            <span> </span>
+                        </div>
+                        <div class="field">
+                            <div class="diff-box added"></div>
+                            <div class="diff-box added"></div>
+                            <div class="diff-box added"></div>
+                            <div class="diff-box deleted"></div>
+                            <div class="diff-box deleted"></div>
+                            <div class="diff-stats">
+                                <span class="added">  +223k</span>
+                                <span class="deleted">  -110k</span>
                             </div>
                             <span> </span>
                         </div>
@@ -156,8 +156,8 @@
                             <div class="diff-box added"></div>
                             <div class="diff-box deleted"></div>
                             <div class="diff-stats">
-                                <span class="added"> +16.4k</span>
-                                <span class="deleted"> -2.46k</span>
+                                <span class="added">   +22k</span>
+                                <span class="deleted">   -367</span>
                             </div>
                             <span> </span>
                         </div>
@@ -168,20 +168,8 @@
                             <div class="diff-box added"></div>
                             <div class="diff-box deleted"></div>
                             <div class="diff-stats">
-                                <span class="added"> +12.9k</span>
-                                <span class="deleted">   -817</span>
-                            </div>
-                            <span> </span>
-                        </div>
-                        <div class="field">
-                            <div class="diff-box added"></div>
-                            <div class="diff-box added"></div>
-                            <div class="diff-box added"></div>
-                            <div class="diff-box added"></div>
-                            <div class="diff-box deleted"></div>
-                            <div class="diff-stats">
-                                <span class="added"> +9.56k</span>
-                                <span class="deleted">   -241</span>
+                                <span class="added"> +19.2k</span>
+                                <span class="deleted">    -38</span>
                             </div>
                             <span> </span>
                         </div>
@@ -194,6 +182,18 @@
                             <div class="diff-stats">
                                 <span class="added">    +6k</span>
                                 <span class="deleted"> -3.33k</span>
+                            </div>
+                            <span> </span>
+                        </div>
+                        <div class="field">
+                            <div class="diff-box added"></div>
+                            <div class="diff-box added"></div>
+                            <div class="diff-box added"></div>
+                            <div class="diff-box added"></div>
+                            <div class="diff-box deleted"></div>
+                            <div class="diff-stats">
+                                <span class="added"> +4.69k</span>
+                                <span class="deleted">   -390</span>
                             </div>
                             <span> </span>
                         </div>
@@ -300,8 +300,8 @@
                                 <text fill="currentColor" x="-9" dy="0.32em">−8.0k</text>
                             </g>
                         </g>
-                        <path d="M39,140.5L45.484,140.5L51.968,140.5L58.452,140.5L64.935,140.5L71.419,140.5L77.903,140.5L84.387,140.5L90.871,140.5L97.355,140.5L103.839,140.5L110.323,140.5L116.806,140.5L123.29,140.5L129.774,140.5L136.258,140.5L142.742,140.5L149.226,140.5L155.71,140.5L162.194,140.5L168.677,140.5L175.161,140.5L181.645,140.5L188.129,140.5L194.613,140.5L201.097,140.5L207.581,140.5L214.065,140.5L220.548,140.5L227.032,140.5L233.516,140.5L240,140.5L246.484,140.5L252.968,140.5L259.452,140.5L265.935,140.5L272.419,140.5L278.903,140.5L285.387,140.5L291.871,140.5L298.355,140.5L304.839,140.5L324.29,140.5L343.742,140.5L389.129,140.5L395.613,140.5L402.097,140.5L408.581,140.5L415.065,140.5L421.548,140.5L428.032,140.5L434.516,140.5L441,140.5L441,107.04L434.516,64.036L428.032,66.931L421.548,58.508L415.065,55.569L408.581,60.879L402.097,32.467L395.613,111.04L389.129,36.976L343.742,140.325L324.29,128.629L304.839,117.121L298.355,58.493L291.871,87.88L285.387,79.617L278.903,52.572L272.419,45.152L265.935,54.027L259.452,101.977L252.968,56.165L246.484,61.883L240,89.684L233.516,73.012L227.032,35.042L220.548,5L214.065,106.589L207.581,22.298L201.097,51.001L194.613,41.079L188.129,100.697L181.645,116.176L175.161,79.704L168.677,110.255L162.194,109.571L155.71,99.256L149.226,118.489L142.742,112.961L136.258,86.498L129.774,95.678L123.29,104.174L116.806,114.692L110.323,104.552L103.839,103.49L97.355,109.047L90.871,78.162L84.387,104.217L77.903,84.287L71.419,102.995L64.935,110.109L58.452,107.011L51.968,119.813L45.484,97.467L39,123.202Z" fill="rgb(63, 185, 80)"/>
-                        <path d="M39,140.5L45.484,140.5L51.968,140.5L58.452,140.5L64.935,140.5L71.419,140.5L77.903,140.5L84.387,140.5L90.871,140.5L97.355,140.5L103.839,140.5L110.323,140.5L116.806,140.5L123.29,140.5L129.774,140.5L136.258,140.5L142.742,140.5L149.226,140.5L155.71,140.5L162.194,140.5L168.677,140.5L175.161,140.5L181.645,140.5L188.129,140.5L194.613,140.5L201.097,140.5L207.581,140.5L214.065,140.5L220.548,140.5L227.032,140.5L233.516,140.5L240,140.5L246.484,140.5L252.968,140.5L259.452,140.5L265.935,140.5L272.419,140.5L278.903,140.5L285.387,140.5L291.871,140.5L298.355,140.5L304.839,140.5L324.29,140.5L343.742,140.5L389.129,140.5L395.613,140.5L402.097,140.5L408.581,140.5L415.065,140.5L421.548,140.5L428.032,140.5L434.516,140.5L441,140.5L441,169.741L434.516,223.322L428.032,212.498L421.548,223.511L415.065,228.283L408.581,213.866L402.097,223.787L395.613,191.433L389.129,248.926L343.742,140.631L324.29,160.271L304.839,160.824L298.355,217.124L291.871,198.168L285.387,203.42L278.903,227.25L272.419,231.789L265.935,241.565L259.452,185.89L252.968,224.224L246.484,221.038L240,189.018L233.516,200.35L227.032,253L220.548,231.236L214.065,183.431L207.581,238.277L201.097,255.924L194.613,220.485L188.129,179.707L181.645,165.042L175.161,173.888L168.677,171.72L162.194,170.032L155.71,183.227L149.226,161.536L142.742,167.647L136.258,195.768L129.774,184.566L123.29,167.981L116.806,174.921L110.323,176.244L103.839,175.953L97.355,172.258L90.871,194.313L84.387,186.457L77.903,188.203L71.419,189.279L64.935,163.806L58.452,175.502L51.968,161.027L45.484,182.791L39,157.259Z" fill="rgb(218, 54, 51)"/>
+                        <path d="M39,140.5L45.484,140.5L51.968,140.5L58.452,140.5L64.935,140.5L71.419,140.5L77.903,140.5L84.387,140.5L90.871,140.5L97.355,140.5L103.839,140.5L110.323,140.5L116.806,140.5L123.29,140.5L129.774,140.5L136.258,140.5L142.742,140.5L149.226,140.5L155.71,140.5L162.194,140.5L168.677,140.5L175.161,140.5L181.645,140.5L188.129,140.5L194.613,140.5L201.097,140.5L207.581,140.5L214.065,140.5L220.548,140.5L227.032,140.5L233.516,140.5L240,140.5L246.484,140.5L252.968,140.5L259.452,140.5L265.935,140.5L272.419,140.5L278.903,140.5L285.387,140.5L291.871,140.5L298.355,140.5L304.839,140.5L324.29,140.5L343.742,140.5L389.129,140.5L395.613,140.5L402.097,140.5L408.581,140.5L415.065,140.5L421.548,140.5L428.032,140.5L434.516,140.5L441,140.5L441,97.7L434.516,64.036L428.032,66.931L421.548,58.508L415.065,56.369L408.581,60.879L402.097,32.467L395.613,111.04L389.129,36.976L343.742,140.325L324.29,128.629L304.839,117.121L298.355,58.493L291.871,87.88L285.387,79.617L278.903,53.838L272.419,45.152L265.935,54.027L259.452,101.977L252.968,56.165L246.484,61.883L240,89.684L233.516,73.492L227.032,35.042L220.548,5L214.065,106.589L207.581,22.298L201.097,51.001L194.613,56.544L188.129,100.697L181.645,116.176L175.161,79.704L168.677,110.255L162.194,109.571L155.71,99.256L149.226,118.489L142.742,112.961L136.258,86.498L129.774,95.678L123.29,104.174L116.806,114.692L110.323,104.552L103.839,103.49L97.355,109.047L90.871,78.162L84.387,104.217L77.903,84.287L71.419,102.995L64.935,110.109L58.452,107.011L51.968,119.813L45.484,99.635L39,123.202Z" fill="rgb(63, 185, 80)"/>
+                        <path d="M39,140.5L45.484,140.5L51.968,140.5L58.452,140.5L64.935,140.5L71.419,140.5L77.903,140.5L84.387,140.5L90.871,140.5L97.355,140.5L103.839,140.5L110.323,140.5L116.806,140.5L123.29,140.5L129.774,140.5L136.258,140.5L142.742,140.5L149.226,140.5L155.71,140.5L162.194,140.5L168.677,140.5L175.161,140.5L181.645,140.5L188.129,140.5L194.613,140.5L201.097,140.5L207.581,140.5L214.065,140.5L220.548,140.5L227.032,140.5L233.516,140.5L240,140.5L246.484,140.5L252.968,140.5L259.452,140.5L265.935,140.5L272.419,140.5L278.903,140.5L285.387,140.5L291.871,140.5L298.355,140.5L304.839,140.5L324.29,140.5L343.742,140.5L389.129,140.5L395.613,140.5L402.097,140.5L408.581,140.5L415.065,140.5L421.548,140.5L428.032,140.5L434.516,140.5L441,140.5L441,183.577L434.516,223.322L428.032,212.498L421.548,223.511L415.065,227.861L408.581,213.866L402.097,223.787L395.613,191.433L389.129,248.926L343.742,140.631L324.29,160.271L304.839,160.824L298.355,217.124L291.871,198.168L285.387,203.42L278.903,227.017L272.419,231.789L265.935,241.565L259.452,185.89L252.968,224.224L246.484,221.038L240,189.018L233.516,200.336L227.032,253L220.548,231.236L214.065,183.431L207.581,238.277L201.097,255.924L194.613,220.47L188.129,179.707L181.645,165.042L175.161,173.888L168.677,171.72L162.194,170.032L155.71,183.227L149.226,161.536L142.742,167.647L136.258,195.768L129.774,184.566L123.29,167.981L116.806,174.921L110.323,176.244L103.839,175.953L97.355,172.258L90.871,194.313L84.387,186.457L77.903,188.203L71.419,189.279L64.935,163.806L58.452,175.502L51.968,161.027L45.484,182.762L39,157.259Z" fill="rgb(218, 54, 51)"/>
                     </svg>
                 </div>
             </section>

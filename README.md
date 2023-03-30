@@ -80,5 +80,5 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <h6 align="right"><em>
-    Generated daily with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics v3.33.0</a> 🛠️ <!-- VERSION => MAJOR.minor.patch -->
+    Generated daily with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics v3.34.0-beta</a> 🛠️ <!-- VERSION => MAJOR.minor.patch -->
 </em></h6>

@@ -152,6 +152,7 @@ jobs:
           plugin_habits: true
           plugin_habits_days: 14
           plugin_habits_facts: true
+          plugin_habits_charts: true
           plugin_habits_from: 200
 
       - name: Update isocalendar.svg
@@ -499,6 +500,7 @@ jobs:
           plugin_habits_days: 14
           plugin_habits_facts: true
           plugin_habits_from: 200
+          plugin_habits_charts: true
           plugin_isocalendar: true
           plugin_isocalendar_duration: half-year
           plugin_languages: true

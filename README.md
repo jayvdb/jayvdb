@@ -1,5 +1,6 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/jayvdb/"><img src="https://img.shields.io/badge/-jayvdb-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jayvdb/" alt="Linkedin"></a>
+  <a href="https://www.slideshare.net/jayvdb/"><img src="https://img.shields.io/badge/-jayvdb-grey?style=flat-square&logo=slideshare&link=https://www.slideshare.net/jayvdb/" alt="SlideShare"></a>
   <a href="https://en.wikipedia.org/wiki/user:jayvdb"><img src="https://img.shields.io/badge/edits-68384-F47F24?logo=wikipedia&style=flat-square" alt="English Wikipedia"></a>
   <a href="https://twitter.com/jayvdb"><img href=https://img.shields.io/twitter/follow/jayvdb?style=social"></a>
   <!-- See https://stackoverflow.com/questions/63376500/how-do-i-add-my-stack-overflow-reputation-as-a-live-badge-on-github -->

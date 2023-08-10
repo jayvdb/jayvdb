@@ -1,5 +1,6 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/{{ user.login }}/"><img src="https://img.shields.io/badge/-{{ user.login }}-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/{{ user.login }}/" alt="Linkedin"></a>
+  <a href="https://www.slideshare.net/{{ user.login }}/"><img src="https://img.shields.io/badge/-{{ user.login }}-grey?style=flat-square&logo=slideshare&link=https://www.slideshare.net/{{ user.login }}/" alt="SlideShare"></a>
   <a href="https://en.wikipedia.org/wiki/user:{{ user.login }}"><img src="https://img.shields.io/badge/edits-68384-F47F24?logo=wikipedia&style=flat-square" alt="English Wikipedia"></a>
   <a href="https://twitter.com/{{ user.twitterUsername }}"><img href=https://img.shields.io/twitter/follow/{{ user.twitterUsername }}?style=social"></a>
   <!-- See https://stackoverflow.com/questions/63376500/how-do-i-add-my-stack-overflow-reputation-as-a-live-badge-on-github -->

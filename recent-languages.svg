@@ -20,20 +20,20 @@ h2, h3 { margin: 0px; opacity: 0%; width: 0px; height: 0px; }
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 2.37mb of code in 3568 edited files across 275 commits over last 19 days</small>
+                <small>estimation from 3.32mb of code in 5176 edited files across 329 commits over last 18 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="920" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="790.6893865628042" height="8" fill="#ededed"/>
-                    <rect mask="url(#languages-bar)" x="790.6893865628042" y="0" width="86.48826138699557" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="877.1776479497998" y="0" width="30.203829925348916" height="8" fill="#A97BFF"/>
-                    <rect mask="url(#languages-bar)" x="907.3814778751487" y="0" width="6.345342421291789" height="8" fill="#4f87c4"/>
-                    <rect mask="url(#languages-bar)" x="913.7268202964405" y="0" width="3.309531537379639" height="8" fill="#d0b68c"/>
-                    <rect mask="url(#languages-bar)" x="917.0363518338202" y="0" width="1.3984637022611708" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="918.4348155360813" y="0" width="0.8609758736341014" height="8" fill="#a270ba"/>
-                    <rect mask="url(#languages-bar)" x="919.2957914097154" y="0" width="0.7042085902845396" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="826.9569974596055" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="826.9569974596055" y="0" width="63.350901235169744" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="890.3078986947753" y="0" width="20.162390245752018" height="8" fill="#A97BFF"/>
+                    <rect mask="url(#languages-bar)" x="910.4702889405274" y="0" width="4.235796270115969" height="8" fill="#4f87c4"/>
+                    <rect mask="url(#languages-bar)" x="914.7060852106434" y="0" width="2.2092584467663685" height="8" fill="#d0b68c"/>
+                    <rect mask="url(#languages-bar)" x="916.9153436574097" y="0" width="1.1062903199597003" height="8" fill="#384d54"/>
+                    <rect mask="url(#languages-bar)" x="918.0216339773694" y="0" width="0.9335362760020294" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="918.9551702533715" y="0" width="1.0448297466286058" height="8" fill="#ededed"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -68,15 +68,15 @@ h2, h3 { margin: 0px; opacity: 0%; width: 0px; height: 0px; }
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                            <path fill="#f34b7d" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                            <path fill="#384d54" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
-                        C++
+                        Dockerfile
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                            <path fill="#a270ba" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                            <path fill="#f34b7d" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
-                        Julia
+                        C++
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">

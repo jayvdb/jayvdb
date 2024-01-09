@@ -20,28 +20,22 @@ h2, h3 { margin: 0px; opacity: 0%; width: 0px; height: 0px; }
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 2.38mb of code in 2918 edited files across 264 commits over last 5 days</small>
+                <small>estimation from 907kb of code in 1528 edited files across 275 commits over last 5 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="920" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="704.5935368248125" height="8" fill="#ededed"/>
-                    <rect mask="url(#languages-bar)" x="704.5935368248125" y="0" width="196.36060950808007" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="900.9541463328926" y="0" width="8.17520941407983" height="8" fill="#A97BFF"/>
-                    <rect mask="url(#languages-bar)" x="909.1293557469725" y="0" width="3.30968685621917" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="912.4390426031916" y="0" width="2.9298204771170915" height="8" fill="#a270ba"/>
-                    <rect mask="url(#languages-bar)" x="915.3688630803088" y="0" width="2.056936031520827" height="8" fill="#d0b68c"/>
-                    <rect mask="url(#languages-bar)" x="917.4257991118295" y="0" width="1.6649462573410232" height="8" fill="#384d54"/>
-                    <rect mask="url(#languages-bar)" x="919.0907453691705" y="0" width="0.9092546308294424" height="8" fill="#4f87c4"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="463.0109344942797" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="463.0109344942797" y="0" width="388.4920522425838" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="851.5029867368635" y="0" width="45.3433228713172" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="896.8463096081807" y="0" width="9.582363065708211" height="8" fill="#A97BFF"/>
+                    <rect mask="url(#languages-bar)" x="906.428672673889" y="0" width="6.902095778070264" height="8" fill="#a270ba"/>
+                    <rect mask="url(#languages-bar)" x="913.3307684519591" y="0" width="2.7664270527488104" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="916.0971955047079" y="0" width="1.8140123519287235" height="8" fill="#4f87c4"/>
+                    <rect mask="url(#languages-bar)" x="917.9112078566366" y="0" width="2.0887921433633694" height="8" fill="#ededed"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
-                    <div class="field center no-wrap language">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                            <path fill="#ededed" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                        </svg>
-                        RenderScript
-                    </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                             <path fill="#3572A5" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
@@ -50,9 +44,9 @@ h2, h3 { margin: 0px; opacity: 0%; width: 0px; height: 0px; }
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                            <path fill="#A97BFF" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                            <path fill="#ededed" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
-                        Kotlin
+                        RenderScript
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -62,27 +56,33 @@ h2, h3 { margin: 0px; opacity: 0%; width: 0px; height: 0px; }
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill="#A97BFF" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                        </svg>
+                        Kotlin
+                    </div>
+                    <div class="field center no-wrap language">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                             <path fill="#a270ba" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
                         Julia
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                            <path fill="#d0b68c" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                            <path fill="#00ADD8" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
-                        Coq
-                    </div>
-                    <div class="field center no-wrap language">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                            <path fill="#384d54" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                        </svg>
-                        Dockerfile
+                        Go
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                             <path fill="#4f87c4" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
                         V
+                    </div>
+                    <div class="field center no-wrap language">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill="#ededed" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                        </svg>
+                        Other
                     </div>
                 </div>
             </section>

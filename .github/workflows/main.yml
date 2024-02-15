@@ -352,10 +352,10 @@ jobs:
           repositories_skipped: jayvdb/jayvdb.github.io, jayvdb/wyam-test, jayvdb/pywikibot-osx-wheels, jayvdb/pe-id-en, jayvdb/emplace-data, jayvdb/my-ci-test
 
           plugin_achievements: true  # Show achievements
-          plugin_achievements_threshold: C  # Show all unlocked achievements
+          plugin_achievements_threshold: X  # Include locked achievements
           plugin_achievements_secrets: true  # Include secret achievements
           plugin_achievements_limit: 0  # All that can fit
-          plugin_achievements_display: compact  # Compact layout
+          plugin_achievements_display: detailed  # Compact layout
           extras_css: |  # Make it prettier
             h2, h3 { margin: 0px; opacity: 0%; width: 0px; height: 0px; }
 

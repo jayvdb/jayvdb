@@ -541,6 +541,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update 'Insights' HTML
+        if: false
         uses: lowlighter/metrics@main
         with:
           token: ${{ secrets.METRICS_TOKEN }}

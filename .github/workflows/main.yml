@@ -552,6 +552,9 @@ jobs:
           template: classic
           repositories_skipped: jayvdb/jayvdb.github.io, jayvdb/wyam-test, jayvdb/pywikibot-osx-wheels, jayvdb/pe-id-en, jayvdb/emplace-data, jayvdb/my-ci-test
 
+          plugin_activity_visibility: public
+          plugin_code_visibility: public
+
   readme-template:  # Use the template and generated resources to update the README
     name: Generate README
     runs-on: ubuntu-latest

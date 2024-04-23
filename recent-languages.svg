@@ -20,18 +20,18 @@ h2, h3 { margin: 0px; opacity: 0%; width: 0px; height: 0px; }
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 4.06mb of code in 4560 edited files across 623 commits over last 4 days</small>
+                <small>estimation from 4.13mb of code in 4736 edited files across 663 commits over last 4 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="920" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="886.0772710868545" height="8" fill="#ededed"/>
-                    <rect mask="url(#languages-bar)" x="886.0772710868545" y="0" width="23.370480371576445" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="909.4477514584308" y="0" width="9.972945657698514" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="919.4206971161294" y="0" width="0.28811074277608867" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="919.7088078589054" y="0" width="0.2657706049672476" height="8" fill="#427819"/>
-                    <rect mask="url(#languages-bar)" x="919.9745784638727" y="0" width="0.02542153612730194" height="8" fill="#384d54"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="886.8146378638805" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="886.8146378638805" y="0" width="22.44904114712465" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="909.2636790110051" y="0" width="9.579737509375382" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="918.8434165203805" y="0" width="0.6245402794618279" height="8" fill="#384d54"/>
+                    <rect mask="url(#languages-bar)" x="919.4679567998425" y="0" width="0.27675126127810856" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="919.7447080611206" y="0" width="0.2552919388795386" height="8" fill="#427819"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -54,6 +54,12 @@ h2, h3 { margin: 0px; opacity: 0%; width: 0px; height: 0px; }
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill="#384d54" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                        </svg>
+                        Dockerfile
+                    </div>
+                    <div class="field center no-wrap language">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                             <path fill="#89e051" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
                         Shell
@@ -63,12 +69,6 @@ h2, h3 { margin: 0px; opacity: 0%; width: 0px; height: 0px; }
                             <path fill="#427819" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
                         Makefile
-                    </div>
-                    <div class="field center no-wrap language">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                            <path fill="#384d54" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                        </svg>
-                        Dockerfile
                     </div>
                 </div>
             </section>

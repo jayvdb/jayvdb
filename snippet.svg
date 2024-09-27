@@ -45,7 +45,7 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">ba3acad5</span>
-                            <span class="code">tests/ui-testing/cypress/e2e/tests/dashboard/create_dashboard.cy.js</span>
+                            <span class="code">tests/ui-testing/cypress/e2e/tests/dashboard/edit_dashboard.cy.js</span>
                             <span class="code">
                                 <span class="snippet additions">++1</span>
                                 <span class="snippet deletions">--1</span>
@@ -56,7 +56,7 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -514,7 +514,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">  "have.value",<br /></span><span class="token prefix unchanged">·</span><span class="token line">  ""<br /></span><span class="token prefix unchanged">·</span><span class="token line">);<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">// Asserion for the clear value in the x and y layout<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">// Assertion for the clear value in the x and y layout<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">cy.get(<br /></span><span class="token prefix unchanged">·</span><span class="token line">  `[data-test='dashboard-x-item-${dashboardData.customQueryValue.field1}']`<br /></span><span class="token prefix unchanged">·</span><span class="token line">).should("not.exist");</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -597,7 +597,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">  "have.value",<br /></span><span class="token prefix unchanged">·</span><span class="token line">  ""<br /></span><span class="token prefix unchanged">·</span><span class="token line">);<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">// Asserion for the clear value in the x and y layout<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">// Assertion for the clear value in the x and y layout<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">cy.get(<br /></span><span class="token prefix unchanged">·</span><span class="token line">  `[data-test='dashboard-x-item-${dashboardData.customQueryValue.field1}']`<br /></span><span class="token prefix unchanged">·</span><span class="token line">).should("not.exist");</span></span></code>
                         </div>
                     </section>
                 </div>

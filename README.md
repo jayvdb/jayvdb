@@ -12,7 +12,9 @@
   <a href="https://keybase.io/jayvdb"><img alt="Keybase PGP" src="https://img.shields.io/keybase/pgp/jayvdb?style=flat-square"><a>
   <br>
   <a href="https://stackoverflow.com/users/5037965"><img src="https://stackoverflow-readme-profile.johannchopin.fr/profile-small/5037965"></a>
-  <a href="https://www.openhub.net/accounts/jayvdb"><img alt='Open Hub profile' border='0' height='60' width='450'  src='https://www.openhub.net/accounts/jayvdb/widgets/account_detailed?format=gif'></a>
+  <a href="https://www.openhub.net/accounts/jayvdb"><img alt='Open Hub profile' border='0' height='60' width='450' src='https://www.openhub.net/accounts/jayvdb/widgets/account_detailed?format=gif'></a>
+  <br>
+  <a href="https://ossrank.com/c/5386"><img alt='OSSRank' border='0' src='https://ossrank.com/widget/5386'></a>
 </p>
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

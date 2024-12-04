@@ -20,17 +20,16 @@ h2, h3 { margin: 0px; opacity: 0%; width: 0px; height: 0px; }
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 760kb of code in 1011 edited files across 154 commits over last 8 days</small>
+                <small>estimation from 964kb of code in 1115 edited files across 136 commits over last 8 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="920" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="909.8112270243417" height="8" fill="#ededed"/>
-                    <rect mask="url(#languages-bar)" x="909.8112270243417" y="0" width="5.235966219572777" height="8" fill="#384d54"/>
-                    <rect mask="url(#languages-bar)" x="915.0471932439145" y="0" width="3.2190760059612518" height="8" fill="#2af0ff"/>
-                    <rect mask="url(#languages-bar)" x="918.2662692498758" y="0" width="1.6691505216095381" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="919.9354197714853" y="0" width="0.06458022851465475" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="911.7235422076383" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="911.7235422076383" y="0" width="3.5082877293149126" height="8" fill="#384d54"/>
+                    <rect mask="url(#languages-bar)" x="915.2318299369532" y="0" width="3.1400144317625185" height="8" fill="#2af0ff"/>
+                    <rect mask="url(#languages-bar)" x="918.3718443687158" y="0" width="1.6281556312842689" height="8" fill="#89e051"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -56,12 +55,6 @@ h2, h3 { margin: 0px; opacity: 0%; width: 0px; height: 0px; }
                             <path fill="#89e051" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
                         Shell
-                    </div>
-                    <div class="field center no-wrap language">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                            <path fill="#3178c6" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                        </svg>
-                        TypeScript
                     </div>
                 </div>
             </section>

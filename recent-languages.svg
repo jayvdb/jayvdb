@@ -20,19 +20,20 @@ h2, h3 { margin: 0px; opacity: 0%; width: 0px; height: 0px; }
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 230kb of code in 183 edited files across 130 commits over last 7 days</small>
+                <small>estimation from 242kb of code in 227 edited files across 137 commits over last 8 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="920" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="494.51974548025447" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="494.51974548025447" y="0" width="214.95471837861496" height="8" fill="#ededed"/>
-                    <rect mask="url(#languages-bar)" x="709.4744638588694" y="0" width="107.04373295626705" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="816.5181968151364" y="0" width="64.36252230414436" height="8" fill="#384d54"/>
-                    <rect mask="url(#languages-bar)" x="880.8807191192808" y="0" width="25.08837491162509" height="8" fill="#DA3434"/>
-                    <rect mask="url(#languages-bar)" x="905.9690940309059" y="0" width="7.061912938087062" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="913.031006968993" y="0" width="6.968993031006969" height="8" fill="#7e7eff"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="422.8064822543968" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="422.8064822543968" y="0" width="308.5115569500015" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="731.3180392043982" y="0" width="91.5206816153824" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="822.8387208197807" y="0" width="55.028928355545325" height="8" fill="#384d54"/>
+                    <rect mask="url(#languages-bar)" x="877.867649175326" y="0" width="21.45015975360525" height="8" fill="#DA3434"/>
+                    <rect mask="url(#languages-bar)" x="899.3178089289313" y="0" width="8.685990616274719" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="908.003799545206" y="0" width="6.0378227454592555" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="914.0416222906653" y="0" width="5.958377709334792" height="8" fill="#7e7eff"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -64,6 +65,12 @@ h2, h3 { margin: 0px; opacity: 0%; width: 0px; height: 0px; }
                             <path fill="#DA3434" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
                         CMake
+                    </div>
+                    <div class="field center no-wrap language">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill="#3178c6" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                        </svg>
+                        TSX
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">

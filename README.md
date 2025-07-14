@@ -4,7 +4,7 @@
   <a href="https://en.wikipedia.org/wiki/user:jayvdb"><img src="https://img.shields.io/badge/edits-68384-F47F24?logo=wikipedia&style=flat-square" alt="English Wikipedia"></a>
   <a href="https://twitter.com/jayvdb"><img href=https://img.shields.io/twitter/follow/jayvdb?style=social"></a>
   <!-- See https://stackoverflow.com/questions/63376500/how-do-i-add-my-stack-overflow-reputation-as-a-live-badge-on-github -->
-  <a href="https://stackoverflow.com/users/5037965"><img src="https://img.shields.io/badge/reputation-534-F47F24?logo=stackoverflow&style=flat-square" alt="StackOverflow"></a>
+  <a href="https://stackoverflow.com/users/5037965"><img src="https://img.shields.io/badge/reputation-533-F47F24?logo=stackoverflow&style=flat-square" alt="StackOverflow"></a>
   <a href="https://opensource.stackexchange.com/users/25491/jayvdb"><img src="https://img.shields.io/badge/FOS_reputation-164-39739D?logo=stackexchange&style=flat-square" alt="StackOverflow"></a>
   <a href="https://superuser.com/users/675050"><img src="https://img.shields.io/badge/reputation-153-38A1CE?logo=superuser&style=flat-square" alt="SuperUser"></a>
     <a href="https://bugs.launchpad.net/~jayvdb"><img src="https://img.shields.io/badge/bugs-26-EAEA71?logo=launchpad&style=flat-square" alt="LaunchPad"></a>

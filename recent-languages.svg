@@ -20,17 +20,17 @@ h2, h3 { margin: 0px; opacity: 0%; width: 0px; height: 0px; }
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 1.19mb of code in 1397 edited files across 157 commits over last 9 days</small>
+                <small>estimation from 1.07mb of code in 1440 edited files across 145 commits over last 8 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="920" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="893.1744651243695" height="8" fill="#ededed"/>
-                    <rect mask="url(#languages-bar)" x="893.1744651243695" y="0" width="16.628978952861367" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="909.8034440772308" y="0" width="6.898591059314664" height="8" fill="#384d54"/>
-                    <rect mask="url(#languages-bar)" x="916.7020351365454" y="0" width="2.9709514698208386" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="919.6729866063663" y="0" width="0.32701339363367543" height="8" fill="#384d54"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="901.9548344874397" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="901.9548344874397" y="0" width="8.68320779642363" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="910.6380422838633" y="0" width="6.333934544899047" height="8" fill="#384d54"/>
+                    <rect mask="url(#languages-bar)" x="916.9719768287624" y="0" width="2.727776147929292" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="919.6997529766917" y="0" width="0.3002470233083764" height="8" fill="#384d54"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">

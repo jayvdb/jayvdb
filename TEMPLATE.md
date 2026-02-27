@@ -27,7 +27,7 @@
 Other analytics that show that the following is accurate:
 
 - https://ossinsight.io/analyze/jayvdb
-- https://codetrace.com/users/jayvdb (Note to self, it is static until user requests a new analysis)
+- https://codetrace.com/users/jayvdb (Analyzed in 2022; re-analysis appears to be broken)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
